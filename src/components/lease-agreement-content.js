@@ -45,32 +45,6 @@ class LeaseAgreementContent extends Component {
                     date (if any) will be delivered to you immediately.
                   </p>
                 </div>
-                {/* <ul className="ltn__list-item-half ltn__list-item-half-2 list-item-margin clearfix">
-								<li>
-									<i className="icon-done" />
-									Up-to-date
-								</li>
-								<li>
-									<i className="icon-done" />
-									Reliable
-								</li>
-								<li>
-									<i className="icon-done" />
-									Effortless
-								</li>
-								<li>
-									<i className="icon-done" />
-									Updated
-								</li>
-								<li>
-									<i className="icon-done" />
-									Efficient
-								</li>
-								<li>
-									<i className="icon-done" />
-									Guaranteed
-								</li>
-							</ul> */}
               </div>
             </div>
             <div className="col-lg-6 text-center">
