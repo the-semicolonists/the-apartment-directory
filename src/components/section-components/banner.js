@@ -21,7 +21,7 @@ class Banner extends Component {
                           </span>
                         </h6>
                         <h1 className="slide-title animated">
-                          Invest, and Grow <br /> in Commercial Real Estate
+                          Invest and Grow <br /> in Residential Real Estate
                         </h1>
                         <div className="slide-brief animated">
                           <p>

@@ -64,8 +64,8 @@ class AboutSection extends Component {
                   </p>
 
                   <p>
-                    Thank you, <br /> Laurence A. Kurtz <br />{' '}
-                    <emphasis>President</emphasis>
+                    Thank you, <br /> Laurence A. Kurtz <br />
+                    <strong>President</strong>
                   </p>
                 </div>
               </div>

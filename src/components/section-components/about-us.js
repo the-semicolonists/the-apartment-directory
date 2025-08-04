@@ -20,13 +20,12 @@ class AboutUs extends Component {
               <div className="about-us-info-wrap">
                 <div className="section-title-area ltn__section-title-2--- mb-20">
                   <h1 className="section-title">
-                    The Leading Investment Properties Marketplace{' '}
+                    The Leading Marketplace for Property Investment
                     <span className="ps-1">.</span>
                   </h1>
                   <p>
-                    {' '}
                     Get direct access to 65 - 80% of owners' phone numbers and
-                    up-to-date listings that are frequently refreshed.{' '}
+                    up-to-date listings that are frequently refreshed.
                   </p>
                 </div>
                 <ul className="ltn__list-item-half clearfix">
@@ -51,7 +50,7 @@ class AboutUs extends Component {
                   <p>
                     "The most comprehensive and useful information for
                     <br />
-                    Southern california apartment buildingds and owners"{' '}
+                    Southern california apartment buildingds and owners"
                   </p>
                 </div>
                 {/* <div className="btn-wrapper animated go-top">
