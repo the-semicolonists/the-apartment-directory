@@ -1,0 +1,69 @@
+import { Component } from 'react';
+
+class AboutUs extends Component {
+  render() {
+    let publicUrl = process.env.PUBLIC_URL + '/';
+
+    return (
+      <div className="ltn__about-us-area pt-120 pb-90 ">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 align-self-center">
+              <div className="about-us-img-wrap about-img-left">
+                <img
+                  src={publicUrl + 'assets/img/luxury-residential-building.jpg'}
+                  alt="About Us"
+                />
+              </div>
+            </div>
+            <div className="col-lg-6 align-self-center">
+              <div className="about-us-info-wrap">
+                <div className="section-title-area ltn__section-title-2--- mb-20">
+                  <h1 className="section-title">
+                    The Leading Investment Properties Marketplace{' '}
+                    <span className="ps-1">.</span>
+                  </h1>
+                  <p>
+                    {' '}
+                    Get direct access to 65 - 80% of owners' phone numbers and
+                    up-to-date listings that are frequently refreshed.{' '}
+                  </p>
+                </div>
+                <ul className="ltn__list-item-half clearfix">
+                  <li>
+                    <i className="flaticon-home-1" />
+                    Trusted Service
+                  </li>
+                  <li>
+                    <i className="flaticon-mountain" />
+                    Quality Properties
+                  </li>
+                  <li>
+                    <i className="flaticon-heart" />
+                    Effortless Rentals
+                  </li>
+                  <li>
+                    <i className="flaticon-secure" />
+                    Verified Data
+                  </li>
+                </ul>
+                <div className="ltn__callout bg-overlay-theme-05  mt-30">
+                  <p>
+                    "The most comprehensive and useful information for
+                    <br />
+                    Southern california apartment buildingds and owners"{' '}
+                  </p>
+                </div>
+                {/* <div className="btn-wrapper animated go-top">
+			            <Link to="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
+			          </div> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default AboutUs;
