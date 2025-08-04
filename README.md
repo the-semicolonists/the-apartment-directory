@@ -1,3 +1,3 @@
-# the-apartment-directory-v2
+# the-apartment-directory
 
 The Apartment Directory 2.0
