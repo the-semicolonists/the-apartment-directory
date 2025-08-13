@@ -116,7 +116,7 @@ class ContactForm extends Component {
                       className="btn theme-btn-1 btn-effect-1 text-uppercase"
                       type="submit"
                     >
-                      Submit
+                      Book a Demo
                     </button>
                   </div>
                   <p className="form-messege mb-0 mt-20" />

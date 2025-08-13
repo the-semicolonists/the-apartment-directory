@@ -108,15 +108,15 @@ class DirectorySubscriptionSlider extends Component {
             <div className="ltn__search-by-place-item">
               <div className="search-by-place-img">
                 <img
-                  src={publicUrl + 'assets/img/directory-slider/slider-5.jpg'}
+                  src={publicUrl + 'assets/img/directory-slider/slider-5.webp'}
                   alt="#"
                   className="slider-image"
                 />
               </div>
               <div className="search-by-place-info">
                 <h6>
-                  Covering 4 units and over in all of San Diego County,
-                  publishes in Summer
+                  Covering mid-rise and high-rise apartment exteriors in all of
+                  San Diego County, publishes in Summer
                 </h6>
                 <h5>SAN DIEGO COUNTY APARTMENT DIRECTORY</h5>
                 <div className="search-by-place-btn">

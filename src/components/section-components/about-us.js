@@ -11,7 +11,9 @@ class AboutUs extends Component {
             <div className="col-lg-6 align-self-center">
               <div className="about-us-img-wrap about-img-left">
                 <img
-                  src={publicUrl + 'assets/img/luxury-residential-building.jpg'}
+                  src={
+                    publicUrl + 'assets/img/luxury-residential-building.webp'
+                  }
                   alt="About Us"
                 />
               </div>

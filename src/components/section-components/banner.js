@@ -21,14 +21,15 @@ class Banner extends Component {
                           </span>
                         </h6>
                         <h1 className="slide-title animated">
-                          Invest and Grow <br /> in Residential Real Estate
+                          Verified owner data. <br />
+                          Better outreach. <br />
+                          More closings.
                         </h1>
                         <div className="slide-brief animated">
                           <p>
                             {' '}
-                            Over 35 years of experience with the most complete
-                            and accurate listings, backed by human-verified
-                            research.{' '}
+                            Built for agents, brokers, and deal teams focused on
+                            multifamily.{' '}
                           </p>
                         </div>
                         {/* <div className="btn-wrapper animated ">
