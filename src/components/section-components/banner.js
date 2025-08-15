@@ -21,9 +21,11 @@ class Banner extends Component {
                           </span>
                         </h6>
                         <h1 className="slide-title animated">
-                          Verified owner data. <br />
-                          Better outreach. <br />
-                          More closings.
+                          Verified owner data
+                          <br />
+                          Better outreach
+                          <br />
+                          More closings
                         </h1>
                         <div className="slide-brief animated">
                           <p>
