@@ -20,7 +20,7 @@ const DirectoryPage = () => {
                 <img
                   src={
                     publicUrl +
-                    'assets/img/exterior-design-of-wooden-red-cottage-in-snowy-tow.jpg'
+                    'assets/img/apartment-building-2.png'
                   }
                   className="img-fluid rounded"
                   alt="Apartment 1"
@@ -30,7 +30,7 @@ const DirectoryPage = () => {
                 <img
                   src={
                     publicUrl +
-                    'assets/img/beautiful-architecture-marseille-france-with-tall-business-buildings-white-sky2.jpg'
+                    'assets/img/apartment-building-3.png'
                   }
                   className="img-fluid rounded"
                   alt="Apartment 2"
@@ -38,7 +38,7 @@ const DirectoryPage = () => {
                 <img
                   src={
                     publicUrl +
-                    'assets/img/a-kitchen-with-a-stove-and-a-white-tile-wall.jpg'
+                    'assets/img/apartment-building-4.png'
                   }
                   className="img-fluid rounded"
                   alt="Apartment 3"
