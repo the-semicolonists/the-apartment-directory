@@ -50,9 +50,9 @@ class AboutUs extends Component {
                 <div className="ltn__callout bg-overlay-theme-05  mt-30">
                   <p>
                      
-                    "The most comprehensive and actionable data on apartment
+                    "The most comprehensive and actionable data on 
                     <br />
-                    buildings and ownership in Southern California."
+                    apartment buildings and ownership in Southern California."
                   </p>
                 </div>
                 {/* <div className="btn-wrapper animated go-top">
