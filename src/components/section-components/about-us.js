@@ -22,37 +22,39 @@ class AboutUs extends Component {
               <div className="about-us-info-wrap">
                 <div className="section-title-area ltn__section-title-2--- mb-20">
                   <h1 className="section-title">
-                    The Leading Marketplace for Property Investment
+                    The Go-To Data Source for Multifamily Investment in Southern
+                    California
                     <span className="ps-1">.</span>
                   </h1>
                   <p>
-                    Get direct access to 65 - 80% of owners' phone numbers and
-                    up-to-date listings that are frequently refreshed.
+                    Access verified, regularly updated apartment owner
+                    data-including phone numbers for 65–80% of listings-curated
+                    for agents, brokers, and deal teams focused on multifamily.
                   </p>
                 </div>
                 <ul className="ltn__list-item-half clearfix">
                   <li>
                     <i className="flaticon-home-1" />
-                    Trusted Service
+                    Verified Owner Data
                   </li>
                   <li>
                     <i className="flaticon-mountain" />
-                    Quality Properties
+                    Effortless Lead Generation
                   </li>
                   <li>
                     <i className="flaticon-heart" />
-                    Effortless Rentals
+                    Trusted by Industry Professionals
                   </li>
                   <li>
                     <i className="flaticon-secure" />
-                    Verified Data
+                    Continuously Updated Listings
                   </li>
                 </ul>
                 <div className="ltn__callout bg-overlay-theme-05  mt-30">
                   <p>
-                    "The most comprehensive and useful information for
+                    "The most comprehensive and actionable data on
                     <br />
-                    Southern california apartment buildingds and owners"
+                    apartment buildings and ownership in Southern California."
                   </p>
                 </div>
                 {/* <div className="btn-wrapper animated go-top">

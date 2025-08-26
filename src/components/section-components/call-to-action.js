@@ -10,15 +10,15 @@ class CallToAction extends Component {
             <div className="col-lg-12">
               <div className="call-to-action-inner call-to-action-inner-6 ltn__secondary-bg position-relative text-center---">
                 <div className="coll-to-info text-color-white">
-                  <h2>Ready to Find Your Next Investment?</h2>
+                  <h2>Ready to Find Your Next Apartment Deal?</h2>
                   <p>
-                    From Cozy Homes to Profitable Investments, We Make Finding
-                    Your Property Simple.
+                    From verified ownership data to curated investment listings,
+                    we make finding your next property opportunity simple.
                   </p>
                 </div>
                 <div className="btn-wrapper go-top">
                   <Link className="btn btn-effect-3 btn-white" to="/properties">
-                    Explore Properties <i className="icon-next" />
+                    Explore Verified Properties <i className="icon-next" />
                   </Link>
                 </div>
               </div>

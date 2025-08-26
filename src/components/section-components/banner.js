@@ -20,18 +20,19 @@ class Banner extends Component {
                             <i className="fas fa-home" />
                           </span>
                         </h6>
-                        <h1 className="slide-title animated">
-                          Verified owner data
-                          <br />
-                          Better outreach
-                          <br />
-                          More closings
+                        <h1 className="slide-title">
+                          <span class="d-block text-dark">
+                            Verified owner data.
+                          </span>
+                          <span class="d-block text-dark">
+                            Better outreach.
+                          </span>
+                          <span class="d-block text-dark">More closings.</span>
                         </h1>
                         <div className="slide-brief animated">
                           <p>
-                            {' '}
                             Built for agents, brokers, and deal teams focused on
-                            multifamily.{' '}
+                            multifamily.
                           </p>
                         </div>
                         {/* <div className="btn-wrapper animated ">
@@ -88,7 +89,7 @@ class Banner extends Component {
                         className="w-100 ms-0"
                       /> */}
                       <img
-                        src="/assets/img/top-view-villa.jpg" // Corrected path
+                        src="/assets/img/apartment-building-1.webp" // Corrected path
                         alt="villa's top view"
                         className="w-100 ms-0"
                       />
