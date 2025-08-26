@@ -18,28 +18,19 @@ const DirectoryPage = () => {
             <div className="row">
               <div className="col-8 p-2">
                 <img
-                  src={
-                    publicUrl +
-                    'assets/img/apartment-building-2.png'
-                  }
+                  src={publicUrl + 'assets/img/apartment-building-2.webp'}
                   className="img-fluid rounded"
                   alt="Apartment 1"
                 />
               </div>
               <div className="col-4 d-flex flex-column justify-content-between p-2">
                 <img
-                  src={
-                    publicUrl +
-                    'assets/img/apartment-building-3.png'
-                  }
+                  src={publicUrl + 'assets/img/apartment-building-3.webp'}
                   className="img-fluid rounded"
                   alt="Apartment 2"
                 />
                 <img
-                  src={
-                    publicUrl +
-                    'assets/img/apartment-building-4.png'
-                  }
+                  src={publicUrl + 'assets/img/apartment-building-4.webp'}
                   className="img-fluid rounded"
                   alt="Apartment 3"
                 />
@@ -48,27 +39,33 @@ const DirectoryPage = () => {
           </div>
           <div className="col-md-5">
             <h2 className="fw-bold">
-              Your One-Stop Source for Apartment Ownership Data in Southern California
+              Your One-Stop Source for Apartment Ownership Data in Southern
+              California
             </h2>
 
-            <div className='border-bottom mt-3'>
+            <div className="border-bottom mt-3">
               <p>
-                The Apartment Directory gives you direct access to apartment owner contact information-names, addresses,
-                and phone numbers-for properties across the Southland. Ownership records are paired with key property details such as:
+                The Apartment Directory gives you direct access to apartment
+                owner contact information-names, addresses, and phone
+                numbers-for properties across the Southland. Ownership records
+                are paired with key property details such as:
               </p>
 
               <ul className="list-unstyled">
                 <li>• Number of units </li>
-                <li className='mt-0'>• Year of construction </li>
-                <li className='mt-0'>• Number of floors </li>
-                <li className='mt-0'>• Verified owner contact info </li>
+                <li className="mt-0">• Year of construction </li>
+                <li className="mt-0">• Number of floors </li>
+                <li className="mt-0">• Verified owner contact info </li>
               </ul>
             </div>
 
             <p className="mt-3">
-              Whether you're buying or selling real estate, managing investments, or offering services to apartment owners, this is the resource trusted by
-              professionals across the region. Our directories are thoroughly researched and regularly updated to give you the accurate data you need to drive better decisions
-              and close more deals.
+              Whether you're buying or selling real estate, managing
+              investments, or offering services to apartment owners, this is the
+              resource trusted by professionals across the region. Our
+              directories are thoroughly researched and regularly updated to
+              give you the accurate data you need to drive better decisions and
+              close more deals.
             </p>
           </div>
         </div>
@@ -86,8 +83,8 @@ const DirectoryPage = () => {
                 data-bs-target="#sampleByLocation"
               >
                 click here
-              </a>
-              {' '} to see a sample)
+              </a>{' '}
+              to see a sample)
             </p>
             <ul className="list-unstyled">
               <li>✓ Building date</li>

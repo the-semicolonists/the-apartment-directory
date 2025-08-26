@@ -12,7 +12,8 @@ class CallToAction extends Component {
                 <div className="coll-to-info text-color-white">
                   <h2>Ready to Find Your Next Apartment Deal?</h2>
                   <p>
-                    From verified ownership data to curated investment listings, we make finding your next property opportunity simple.
+                    From verified ownership data to curated investment listings,
+                    we make finding your next property opportunity simple.
                   </p>
                 </div>
                 <div className="btn-wrapper go-top">
