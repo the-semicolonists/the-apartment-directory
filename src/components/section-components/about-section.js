@@ -65,7 +65,7 @@ class AboutSection extends Component {
                     other platforms often miss.
                   </p>
 
-                  <p class="mb-5">
+                  <p className="mb-5">
                     We welcome your feedback and invite you to explore our
                     offerings. Contact us directly with questions, or to learn
                     how we can support your outreach and deal flow.

@@ -21,13 +21,15 @@ class Banner extends Component {
                           </span>
                         </h6>
                         <h1 className="slide-title">
-                          <span class="d-block text-dark">
+                          <span className="d-block text-dark">
                             Verified owner data.
                           </span>
-                          <span class="d-block text-dark">
+                          <span className="d-block text-dark">
                             Better outreach.
                           </span>
-                          <span class="d-block text-dark">More closings.</span>
+                          <span className="d-block text-dark">
+                            More closings.
+                          </span>
                         </h1>
                         <div className="slide-brief animated">
                           <p>

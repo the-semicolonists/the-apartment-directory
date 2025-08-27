@@ -243,7 +243,7 @@ font-family: 'Poppins', sans-serif;
   --ltn__secondary-color-3: #fb412a;
   /* Lighten */
   --ltn__heading-color: #071c1f;
-  --ltn__paragraph-color: #5c727d;
+  --ltn__paragraph-color: #3e4a53;
   --ltn__heading-font: 'Poppins', sans-serif;
   --ltn__body-font: 'Nunito Sans', sans-serif;
   /* Footer ACD2D8 8CB2B2  */
@@ -251,7 +251,7 @@ font-family: 'Poppins', sans-serif;
   --ltn__color-2: #acd2d8;
   --ltn__color-3: #a3bcc0;
   --ltn__color-4: #84a2a6;
-  --ltn__color-5: #5c727d;
+  --ltn__color-5: #3e4a53;
   --ltn__color-6: #f5dfdc;
   /* Gradient Colors */
   --gradient-color-1: linear-gradient(
@@ -8234,6 +8234,11 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .slide-brief {
   max-width: 450px;
+}
+
+.slide-brief p {
+  font-size: 20px;
+  line-height: 1.2em;
 }
 
 .text-right .slide-brief {

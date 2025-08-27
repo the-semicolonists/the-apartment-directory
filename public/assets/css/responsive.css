@@ -1,16 +1,78 @@
 /* ====================================================
     Responsive
 ==================================================== */
-/* Desktop 1200 - up */
+
+/* Desktop 1200px and up */
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
+
+  /* Global */
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 18px;
+  }
 }
 
-/* Normal desktop :992px. (Laptop 14") */
+/* Normal desktop: 992px to 1199px (Laptop 14") */
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Global */
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Tablet device: 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Global */
+  body {
+    font-size: 15px;
+  }
+
   h1 {
     font-size: 30px;
   }
@@ -18,73 +80,48 @@
     font-size: 26px;
   }
   h3 {
-    font-size: 22px;
+    font-size: 24px;
   }
   h4 {
-    font-size: 20px;
-  }
-  h5 {
-    font-size: 18px;
-  }
-  h6 {
-    font-size: 16px;
-  }
-}
-
-/* Tablet device :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Global */
-  body {
-    font-size: 14px;
-  }
-  h1 {
-    font-size: 26px;
-  }
-  h2 {
     font-size: 22px;
   }
-  h3 {
+  h5 {
     font-size: 20px;
   }
-  h4 {
-    font-size: 18px;
-  }
-  h5 {
-    font-size: 16px;
-  }
   h6 {
-    font-size: 15px;
+    font-size: 18px;
   }
   p {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
-/* small mobile :320px. */
+/* Small mobile: 320px to 767px */
 @media (max-width: 767px) {
   /* Global */
   body {
-    font-size: 14px;
-  }
-  h1 {
-    font-size: 24px;
-  }
-  h2 {
-    font-size: 20px;
-  }
-  h3 {
-    font-size: 18px;
-  }
-  h4 {
-    font-size: 17px;
-  }
-  h5 {
     font-size: 16px;
   }
+
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
   h6 {
-    font-size: 14px;
+    font-size: 16px;
   }
   p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
