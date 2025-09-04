@@ -29,12 +29,12 @@ class Navbar extends Component {
       {
         path: '/subscription-rates-page',
         label: 'Subscription Rates',
-        subMenu: [
-          { path: '/directory-subscription-page', label: 'Directory' },
-          { path: '/apartment-subscription-page', label: 'Apartment Disk' },
-          { path: '/commercial-subscription-page', label: 'Commercial Disk' },
-          { path: '/mailing-subscription-page', label: 'Mailing Label/List' },
-        ],
+        // subMenu: [
+        //   { path: '/directory-subscription-page', label: 'Directory' },
+        //   { path: '/apartment-subscription-page', label: 'Apartment Disk' },
+        //   { path: '/commercial-subscription-page', label: 'Commercial Disk' },
+        //   { path: '/mailing-subscription-page', label: 'Mailing Label/List' },
+        // ],
       },
       { path: '/lease-agreement-page', label: 'Lease Agreement' },
       { path: '/contact', label: 'Contact' },

@@ -19602,6 +19602,25 @@ input.cart-plus-minus-box {
   display: none;
 }
 
+.nav-tabs .nav-link {
+  background-color: #f8f9fa; /* Light gray */
+  color: #333;
+  border: 1px solid #dee2e6;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: #e9ecef; /* Slightly darker on hover */
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #ffffff; /* Active tab stays white */
+  color: #000;
+  border-color: #dee2e6 #dee2e6 #fff;
+  font-weight: 600;
+}
+
 /* ----------------------------------------------------
     END
 ---------------------------------------------------- */
