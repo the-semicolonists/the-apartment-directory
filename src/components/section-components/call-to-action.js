@@ -17,8 +17,8 @@ class CallToAction extends Component {
                   </p>
                 </div>
                 <div className="btn-wrapper go-top">
-                  <Link className="btn btn-effect-3 btn-white" to="/properties">
-                    Explore Verified Properties <i className="icon-next" />
+                  <Link className="btn btn-effect-3 btn-white" to="/contact">
+                    Inquire Now
                   </Link>
                 </div>
               </div>

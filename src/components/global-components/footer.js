@@ -74,7 +74,7 @@ class Footer extends Component {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <a href="tel:+18007665316">(800) 766-5316</a>
+                            <a href="tel:+13108320354">(310) 832-0354</a>
                           </p>
                         </div>
                       </li>

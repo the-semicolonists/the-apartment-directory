@@ -1,18 +1,18 @@
 import React from 'react';
 
-const MailingSubscriptionContent = ({ spacing }) => {
-  const mailingDetails = [
-    'Pressure Sensitive labels using same criteria as above, are $75.00/m.',
-    'Add $20.00 per thousand for special selections, i.e. by units, date of purchase, or location.',
-    'Sorts requiring APN map plotting, or several selections will have to be quoted separately.',
-    'Disks with mailing information only, are $98.00/m, add $20.00/m for special selections (see separate price list for complete directories on disk).',
-    'Minimum order for labels is $150.00, disks $195.00.',
-    'Duplicate sets of labels ordered at the same time are $45.00/m.',
-    'Quantity discounts are available for orders of 5000 or more labels, call for quote.',
-    'Computer generated readouts or lists that have the name, address and phone number of the property owner, together with the building information are $245.00/m records with a minimum order of $495.00, per directory area.',
-    'Shipping and handling charges will be added to all orders, minimum cost $15.00.',
-  ];
+const mailingDetails = [
+  'Pressure Sensitive labels are available using the same selection criteria as above.',
+  'Special selections can be added, such as by units, date of purchase, or location.',
+  'Sorts requiring APN map plotting or multiple selections will need to be quoted separately.',
+  'Data with mailing information only is available, with options for special selections (see separate price list for complete directories).',
+  'Minimum order quantities apply for labels and data.',
+  'Duplicate sets of labels ordered at the same time are available.',
+  'Quantity discounts are available for large orders; please call for a custom quote.',
+  'Computer generated readouts or lists with owner name, address, phone number, and building information are available per directory area.',
+  'Shipping and handling will be added to all orders, with standard minimums.',
+];
 
+const MailingSubscriptionContent = ({ spacing = '' }) => {
   return (
     <div className="ltn__shop-details-area pb-10">
       <div className={`container ${spacing}`}>
@@ -25,18 +25,17 @@ const MailingSubscriptionContent = ({ spacing }) => {
             </div>
 
             <div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
-              <h2>Description</h2>
+              <h4 className="title-2">Available Data</h4>
               <p>
-                The following is the price list for labels, lists or mailing
-                list disks. Generally labels, lists, and disks take 3 days to
-                process. Lists are sent out UPS, which usually takes one day to
-                deliver.
+                The following outlines our available mailing labels, lists, and
+                related data. Generally, labels and lists take 3 days to
+                process. Delivery is typically via UPS within one business day.
               </p>
 
               <div className="property-detail-info-list rounded clearfix mb-60 section-bg-1">
-                {mailingDetails.map((detail, index) => (
+                {mailingDetails.map((detail, idx) => (
                   <div
-                    key={index}
+                    key={`mailing-${idx}`}
                     className="d-flex flex-row justify-content-start align-items-center"
                   >
                     <i className="fas fa-long-arrow-alt-right pe-5 ps-5" />

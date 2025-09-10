@@ -10,7 +10,7 @@ const CommercialSubscriptionPage = () => {
       <Navbar />
       <PageHeader
         headertitle="Subscription Rates"
-        subheader="Commercial Disk Subscription"
+        subheader="Commercial Data Subscription"
       />
       <CommercialSubscriptionContent
         contentColor="bg-white"

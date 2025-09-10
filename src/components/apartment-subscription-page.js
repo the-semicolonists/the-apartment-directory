@@ -10,7 +10,7 @@ const ApartmentSubscriptionPage = () => {
       <Navbar />
       <PageHeader
         headertitle="Subscription Rates"
-        subheader="Apartment Disk Subscription"
+        subheader="Apartment Data Subscription"
       />
       <ApartmentSubscriptionContent
         contentColor="bg-white"
