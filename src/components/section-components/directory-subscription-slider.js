@@ -101,7 +101,7 @@ const DirectorySubscriptionSlider = () => {
                 <h6>{item.description}</h6>
                 <h5>{item.title}</h5>
                 <div className="search-by-place-btn">
-                  <Link to="#">{item.price}</Link>
+                  <Link to="/contact">Inquire</Link>
                 </div>
               </div>
             </div>
