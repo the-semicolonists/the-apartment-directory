@@ -6,7 +6,7 @@ const DirectorySubscriptionSlider = () => {
 
   const directories = [
     {
-      image: 'slider-1.jpg',
+      image: 'slider-1.webp',
       description:
         'Covering 8 units and over in the greater L.A. area, publishes in Spring',
       title: 'LOS ANGELES APARTMENT DIRECTORY',
@@ -27,7 +27,7 @@ const DirectorySubscriptionSlider = () => {
       price: '$986.00',
     },
     {
-      image: 'slider-4.jpg',
+      image: 'slider-4.webp',
       description:
         'Covering 3 units and over in all of Orange County, publishes in Fall)',
       title: 'ORANGE COUNTY APARTMENT INDEX',
@@ -41,7 +41,7 @@ const DirectorySubscriptionSlider = () => {
       price: '$928.00',
     },
     {
-      image: 'slider-6.jpg',
+      image: 'slider-6.webp',
       description:
         'Coverage includes 3 units and over in both Riverside and San Bernardino Counties, publishes in Spring',
       title: 'INLAND EMPIRE APARTMENT DIRECTORY',
@@ -55,7 +55,7 @@ const DirectorySubscriptionSlider = () => {
       price: '$924.00',
     },
     {
-      image: 'slider-8.jpg',
+      image: 'slider-8.webp',
       description:
         'Covers all of Ventura County and Santa Barbara County, buildings with 3 or more units. Publishes in Spring',
       title: 'VENTURA and SANTA BARBARA COUNTIES',
