@@ -49,9 +49,10 @@ class LeaseAgreementContent extends Component {
             </div>
             <div className="col-lg-6 text-center">
               <img
-                src={publicUrl + 'assets/img/building-bg.png'}
+                src={publicUrl + 'assets/img/building-bg.webp'}
                 alt="#"
                 className="h-100 w-100"
+                style={{ objectFit: 'cover' }}
               />
             </div>
           </div>

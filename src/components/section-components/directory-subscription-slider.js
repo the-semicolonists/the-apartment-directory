@@ -13,14 +13,14 @@ const DirectorySubscriptionSlider = () => {
       price: '$986.00',
     },
     {
-      image: 'slider-3.jpg',
+      image: 'slider-2.webp',
       description:
         'Covering 5 units and over in the South Bay and south-eastern portion of L.A. County, publishes in Summer',
       title: 'SOUTH BAY AND SOUTHERN CITIES APARTMENT DIRECTORY',
       price: '$920.00',
     },
     {
-      image: 'slider-2.jpg',
+      image: 'slider-3.webp',
       description:
         'Covering 5-7 units in the greater L.A. area, publishes in Spring',
       title: 'LOS ANGELES APARTMENT DIRECTORY-SMALL UNIT EDITION',
@@ -48,7 +48,7 @@ const DirectorySubscriptionSlider = () => {
       price: '$916.00',
     },
     {
-      image: 'slider-7.jpg',
+      image: 'slider-3.webp',
       description:
         'Coverage includes 5 units and over in the San Gabriel, San Fernando Valley, Antelope Valley, and Santa Clarita Valley, publication date is Fall',
       title: 'VALLEY APARTMENT DIRECTORY',
