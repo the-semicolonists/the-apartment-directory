@@ -46,8 +46,9 @@ class ContactInfo extends Component {
                 <h3>Office Address</h3>
                 <p>
                   {' '}
-                  2515 S. Western Avenue, Suite 13 <br />
-                  San Pedro, CA 90732
+                  12121 Wilshire Blvd, Suite 1201
+                  <br />
+                  Los Angeles, CA 90025
                 </p>
               </div>
             </div>

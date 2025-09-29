@@ -63,8 +63,8 @@ class Footer extends Component {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            2515 S.Western Avenue Suite 13, San Pedro, CA 90732,
-                            USA
+                            12121 Wilshire Blvd, Suite 1201 Los Angeles, CA
+                            90025 United States
                           </p>
                         </div>
                       </li>
