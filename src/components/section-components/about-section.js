@@ -73,7 +73,7 @@ class AboutSection extends Component {
 
                   <p>
                     Thank you, <br /> Laurence A. Kurtz <br />
-                    <strong>President</strong>
+                    <strong>Chairman</strong>
                   </p>
                 </div>
               </div>
