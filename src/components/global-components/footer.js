@@ -52,8 +52,7 @@ class Footer extends Component {
                     </div>
                   </div>
                   <p className="text-center">
-                    Backed by trusted research and dependable sources since
-                    1965.
+                    Backed by trusted research and dependable sources since 1965.
                   </p>
                   <div className="footer-address">
                     <ul>
@@ -62,10 +61,7 @@ class Footer extends Component {
                           <i className="icon-placeholder" />
                         </div>
                         <div className="footer-address-info">
-                          <p>
-                            12121 Wilshire Blvd, Suite 1201 Los Angeles, CA
-                            90025 United States
-                          </p>
+                          <p>12121 Wilshire Blvd, Suite 1201 Los Angeles, CA 90025 United States</p>
                         </div>
                       </li>
                       {/* <li>

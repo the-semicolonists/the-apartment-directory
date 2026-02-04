@@ -8,14 +8,8 @@ const CommercialSubscriptionPage = () => {
   return (
     <div>
       <Navbar />
-      <PageHeader
-        headertitle="Subscription Rates"
-        subheader="Commercial Data Subscription"
-      />
-      <CommercialSubscriptionContent
-        contentColor="bg-white"
-        listColor="section-bg-1"
-      />
+      <PageHeader headertitle="Subscription Rates" subheader="Commercial Data Subscription" />
+      <CommercialSubscriptionContent contentColor="bg-white" listColor="section-bg-1" />
       <CallToAction />
       <Footer />
     </div>

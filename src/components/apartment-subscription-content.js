@@ -12,11 +12,7 @@ const subscriptionDetails = [
   'Special pricing and benefits are available to current subscribers of our printed directories.',
 ];
 
-const ApartmentSubscriptionContent = ({
-  contentColor = '',
-  listColor = '',
-  spacing = '',
-}) => {
+const ApartmentSubscriptionContent = ({ contentColor = '', listColor = '', spacing = '' }) => {
   return (
     <div className={`ltn__shop-details-area pb-10 ${contentColor}`}>
       <div className={`container ${spacing}`}>
@@ -44,14 +40,12 @@ const ApartmentSubscriptionContent = ({
 
               <h4 className="title-2">Subscription Information</h4>
               <p>
-                Our Apartment Directory subscription provides access to complete
-                and regularly updated data. Subscribers can choose plans based
-                on the number of users or the extent of the data required.
+                Our Apartment Directory subscription provides access to complete and regularly
+                updated data. Subscribers can choose plans based on the number of users or the
+                extent of the data required.
               </p>
 
-              <div
-                className={`property-detail-info-list ${listColor} rounded clearfix mb-60`}
-              >
+              <div className={`property-detail-info-list ${listColor} rounded clearfix mb-60`}>
                 {subscriptionDetails.map((text, idx) => (
                   <div
                     key={`subscription-${idx}`}

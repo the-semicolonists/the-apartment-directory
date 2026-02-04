@@ -12,11 +12,7 @@ const commercialDetails = [
   'Special pricing and benefits are available to current subscribers of the printed version directory.',
 ];
 
-const CommercialSubscriptionContent = ({
-  contentColor = '',
-  listColor = '',
-  spacing = '',
-}) => {
+const CommercialSubscriptionContent = ({ contentColor = '', listColor = '', spacing = '' }) => {
   return (
     <div className={`ltn__shop-details-area pb-10 ${contentColor} mb-5`}>
       <div className={`container ${spacing}`}>
@@ -44,15 +40,12 @@ const CommercialSubscriptionContent = ({
 
               <h4 className="title-2">Subscription Information</h4>
               <p>
-                Our Commercial Directory subscription provides access to
-                complete and regularly updated data. Subscribers can choose
-                plans based on the number of users or the extent of the data
-                required.
+                Our Commercial Directory subscription provides access to complete and regularly
+                updated data. Subscribers can choose plans based on the number of users or the
+                extent of the data required.
               </p>
 
-              <div
-                className={`property-detail-info-list ${listColor} rounded clearfix mb-60`}
-              >
+              <div className={`property-detail-info-list ${listColor} rounded clearfix mb-60`}>
                 {commercialDetails.map((detail, idx) => (
                   <div
                     key={`commercial-${idx}`}

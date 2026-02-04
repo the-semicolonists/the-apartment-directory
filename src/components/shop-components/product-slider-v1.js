@@ -1,11 +1,11 @@
 const ImageSlide = ({ imageSrc }) => {
-  const publicUrl = process.env.PUBLIC_URL + '/';
+  // const publicUrl = process.env.PUBLIC_URL + '/';
 
   return (
     <div className="col-lg-12">
       <div className="ltn__img-slide-item-4">
         <a href={imageSrc} data-rel="lightcase:myCollection">
-          <img src={imageSrc} alt="Image" />
+          <img src={imageSrc} alt="slide image" />
         </a>
       </div>
     </div>

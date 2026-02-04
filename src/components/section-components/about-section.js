@@ -29,46 +29,36 @@ class AboutSection extends Component {
                 </div>
                 <div className="about-us-info-wrap-inner about-us-info-devide---">
                   <p>
-                    <strong>The Apartment Directory</strong> is a
-                    research-driven platform designed specifically to help
-                    professionals market to{' '}
-                    <strong>verified apartment building owners</strong> across
-                    Southern California.
+                    <strong>The Apartment Directory</strong> is a research-driven platform designed
+                    specifically to help professionals market to{' '}
+                    <strong>verified apartment building owners</strong> across Southern California.
                   </p>
 
                   <p>
-                    With <strong>over 35 years of experience</strong> collecting
-                    and refining apartment ownership records, our team delivers
-                    the{' '}
-                    <strong>
-                      most accurate and comprehensive ownership data
-                    </strong>{' '}
-                    available today.
+                    With <strong>over 35 years of experience</strong> collecting and refining
+                    apartment ownership records, our team delivers the{' '}
+                    <strong>most accurate and comprehensive ownership data</strong> available today.
                   </p>
 
                   <p>
                     What sets us apart is the quality of our{' '}
-                    <strong>human-verified contact information</strong>. Our
-                    directories include phone numbers for 65% to 80% of listed
-                    owners — far exceeding standard data sources. We also go
-                    beyond public LLCs or partnership names to identify and
-                    include <strong>actual decision-makers</strong> whenever
-                    possible.
+                    <strong>human-verified contact information</strong>. Our directories include
+                    phone numbers for 65% to 80% of listed owners — far exceeding standard data
+                    sources. We also go beyond public LLCs or partnership names to identify and
+                    include <strong>actual decision-makers</strong> whenever possible.
                   </p>
 
                   <p>
-                    Unlike consumer-facing or tenant-oriented platforms, our
-                    service is built exclusively for{' '}
-                    <strong>agents, brokers, and deal teams</strong> focused on{' '}
-                    <strong>multifamily properties</strong>. Through manual
-                    research and validation, we surface ownership data that
-                    other platforms often miss.
+                    Unlike consumer-facing or tenant-oriented platforms, our service is built
+                    exclusively for <strong>agents, brokers, and deal teams</strong> focused on{' '}
+                    <strong>multifamily properties</strong>. Through manual research and validation,
+                    we surface ownership data that other platforms often miss.
                   </p>
 
                   <p className="mb-5">
-                    We welcome your feedback and invite you to explore our
-                    offerings. Contact us directly with questions, or to learn
-                    how we can support your outreach and deal flow.
+                    We welcome your feedback and invite you to explore our offerings. Contact us
+                    directly with questions, or to learn how we can support your outreach and deal
+                    flow.
                   </p>
 
                   <p>

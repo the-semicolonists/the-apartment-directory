@@ -11,6 +11,7 @@ class Map extends Component {
           allowFullScreen
           aria-hidden="false"
           tabIndex={0}
+          title="location"
         />
       </div>
     );

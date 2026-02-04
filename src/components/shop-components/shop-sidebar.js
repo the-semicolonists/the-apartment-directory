@@ -149,18 +149,11 @@ class Sidebar extends Component {
             <hr />
             {/* Price Filter Widget */}
             <div className="widget--- ltn__price-filter-widget">
-              <h4 className="ltn__widget-title ltn__widget-title-border---">
-                Filter by price
-              </h4>
+              <h4 className="ltn__widget-title ltn__widget-title-border---">Filter by price</h4>
               <div className="price_filter">
                 <div className="price_slider_amount">
                   <input type="submit" defaultValue="Your range:" />
-                  <input
-                    type="text"
-                    className="amount"
-                    name="price"
-                    placeholder="Add Your Price"
-                  />
+                  <input type="text" className="amount" name="price" placeholder="Add Your Price" />
                 </div>
                 <div className="slider-range" />
               </div>
@@ -232,9 +225,7 @@ class Sidebar extends Component {
           </div>
           {/* Category Widget */}
           <div className="widget ltn__menu-widget d-none">
-            <h4 className="ltn__widget-title ltn__widget-title-border">
-              Product categories
-            </h4>
+            <h4 className="ltn__widget-title ltn__widget-title-border">Product categories</h4>
             <ul>
               <li>
                 <a href="#">
@@ -296,27 +287,18 @@ class Sidebar extends Component {
           </div>
           {/* Price Filter Widget */}
           <div className="widget ltn__price-filter-widget d-none">
-            <h4 className="ltn__widget-title ltn__widget-title-border">
-              Filter by price
-            </h4>
+            <h4 className="ltn__widget-title ltn__widget-title-border">Filter by price</h4>
             <div className="price_filter">
               <div className="price_slider_amount">
                 <input type="submit" defaultValue="Your range:" />
-                <input
-                  type="text"
-                  className="amount"
-                  name="price"
-                  placeholder="Add Your Price"
-                />
+                <input type="text" className="amount" name="price" placeholder="Add Your Price" />
               </div>
               <div className="slider-range" />
             </div>
           </div>
           {/* Top Rated Product Widget */}
           <div className="widget ltn__top-rated-product-widget d-none">
-            <h4 className="ltn__widget-title ltn__widget-title-border">
-              Top Rated Product
-            </h4>
+            <h4 className="ltn__widget-title ltn__widget-title-border">Top Rated Product</h4>
             <ul>
               <li>
                 <div className="top-rated-product-item clearfix">
@@ -463,15 +445,9 @@ class Sidebar extends Component {
           </div>
           {/* Search Widget */}
           <div className="widget ltn__search-widget d-none">
-            <h4 className="ltn__widget-title ltn__widget-title-border">
-              Search Objects
-            </h4>
+            <h4 className="ltn__widget-title ltn__widget-title-border">Search Objects</h4>
             <form action="#">
-              <input
-                type="text"
-                name="search"
-                placeholder="Search your keyword..."
-              />
+              <input type="text" name="search" placeholder="Search your keyword..." />
               <button type="submit">
                 <i className="fas fa-search" />
               </button>
@@ -479,9 +455,7 @@ class Sidebar extends Component {
           </div>
           {/* Tagcloud Widget */}
           <div className="widget ltn__tagcloud-widget d-none">
-            <h4 className="ltn__widget-title ltn__widget-title-border">
-              Popular Tags
-            </h4>
+            <h4 className="ltn__widget-title ltn__widget-title-border">Popular Tags</h4>
             <ul>
               <li>
                 <a href="#">Popular</a>
@@ -529,9 +503,7 @@ class Sidebar extends Component {
           </div>
           {/* Size Widget */}
           <div className="widget ltn__tagcloud-widget ltn__size-widget d-none">
-            <h4 className="ltn__widget-title ltn__widget-title-border">
-              Product Size
-            </h4>
+            <h4 className="ltn__widget-title ltn__widget-title-border">Product Size</h4>
             <ul>
               <li>
                 <a href="#">S</a>
@@ -552,9 +524,7 @@ class Sidebar extends Component {
           </div>
           {/* Color Widget */}
           <div className="widget ltn__color-widget d-none">
-            <h4 className="ltn__widget-title ltn__widget-title-border">
-              Product Color
-            </h4>
+            <h4 className="ltn__widget-title ltn__widget-title-border">Product Color</h4>
             <ul>
               <li className="black">
                 <a href="#" />

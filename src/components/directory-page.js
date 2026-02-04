@@ -39,16 +39,14 @@ const DirectoryPage = () => {
           </div>
           <div className="col-md-5">
             <h2 className="fw-bold">
-              Your One-Stop Source for Apartment Ownership Data in Southern
-              California
+              Your One-Stop Source for Apartment Ownership Data in Southern California
             </h2>
 
             <div className="border-bottom mt-3">
               <p>
-                The Apartment Directory gives you direct access to apartment
-                owner contact information-names, addresses, and phone
-                numbers-for properties across the Southland. Ownership records
-                are paired with key property details such as:
+                The Apartment Directory gives you direct access to apartment owner contact
+                information-names, addresses, and phone numbers-for properties across the Southland.
+                Ownership records are paired with key property details such as:
               </p>
 
               <ul className="list-unstyled">
@@ -60,12 +58,10 @@ const DirectoryPage = () => {
             </div>
 
             <p className="mt-3">
-              Whether you're buying or selling real estate, managing
-              investments, or offering services to apartment owners, this is the
-              resource trusted by professionals across the region. Our
-              directories are thoroughly researched and regularly updated to
-              give you the accurate data you need to drive better decisions and
-              close more deals.
+              Whether you're buying or selling real estate, managing investments, or offering
+              services to apartment owners, this is the resource trusted by professionals across the
+              region. Our directories are thoroughly researched and regularly updated to give you
+              the accurate data you need to drive better decisions and close more deals.
             </p>
           </div>
         </div>
@@ -74,14 +70,9 @@ const DirectoryPage = () => {
           <div className="col-md-6 pb-4">
             <h5 className="fw-bold">Listings By Location</h5>
             <p>
-              In this section, you will find alphabetical street listings, with
-              building addresses in numerical order. By reading across each
-              line, you will find the following: (
-              <a
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#sampleByLocation"
-              >
+              In this section, you will find alphabetical street listings, with building addresses
+              in numerical order. By reading across each line, you will find the following: (
+              <a href="#" data-bs-toggle="modal" data-bs-target="#sampleByLocation">
                 click here
               </a>{' '}
               to see a sample)
@@ -101,13 +92,8 @@ const DirectoryPage = () => {
           <div className="col-md-6">
             <h5 className="fw-bold">Listing By Current Owner</h5>
             <p>
-              In this section you will find present owners listed
-              alphabetically... (
-              <a
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#sampleByOwner"
-              >
+              In this section you will find present owners listed alphabetically... (
+              <a href="#" data-bs-toggle="modal" data-bs-target="#sampleByOwner">
                 click here{' '}
               </a>
               to see a sample)
@@ -115,19 +101,13 @@ const DirectoryPage = () => {
             <ul className="list-unstyled">
               <li>✓ Owners of apartment complexes</li>
               <li>✓ Owners’ addresses</li>
-              <li>
-                ✓ Apartment now held, their locations, and the number of units
-                in each
-              </li>
+              <li>✓ Apartment now held, their locations, and the number of units in each</li>
             </ul>
           </div>
         </div>
       </div>
 
-      <ImageModal
-        imageUrl={publicUrl + 'assets/img/samplebyowner.jpg'}
-        modalID="sampleByOwner"
-      />
+      <ImageModal imageUrl={publicUrl + 'assets/img/samplebyowner.jpg'} modalID="sampleByOwner" />
       <ImageModal
         imageUrl={publicUrl + 'assets/img/samplebylocation.jpg'}
         modalID="sampleByLocation"

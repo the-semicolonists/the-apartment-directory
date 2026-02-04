@@ -10,10 +10,7 @@ class Page_header extends Component {
 
     return (
       <div
-        className={
-          'ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image' +
-          CustomClass
-        }
+        className={'ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image' + CustomClass}
         data-bs-bg={publicUrl + 'assets/img/bg/14.webp'}
       >
         <div className="container">

@@ -11,9 +11,7 @@ class AboutUs extends Component {
             <div className="col-lg-6 align-self-center">
               <div className="about-us-img-wrap about-img-left">
                 <img
-                  src={
-                    publicUrl + 'assets/img/luxury-residential-building.webp'
-                  }
+                  src={publicUrl + 'assets/img/luxury-residential-building.webp'}
                   alt="About Us"
                 />
               </div>
@@ -22,14 +20,13 @@ class AboutUs extends Component {
               <div className="about-us-info-wrap">
                 <div className="section-title-area ltn__section-title-2--- mb-20">
                   <h1 className="section-title">
-                    The Go-To Data Source for Multifamily Investment in Southern
-                    California
+                    The Go-To Data Source for Multifamily Investment in Southern California
                     <span className="ps-1">.</span>
                   </h1>
                   <p>
-                    Access verified, regularly updated apartment owner
-                    data-including phone numbers for 65–80% of listings-curated
-                    for agents, brokers, and deal teams focused on multifamily.
+                    Access verified, regularly updated apartment owner data-including phone numbers
+                    for 65–80% of listings-curated for agents, brokers, and deal teams focused on
+                    multifamily.
                   </p>
                 </div>
                 <ul className="ltn__list-item-half clearfix">

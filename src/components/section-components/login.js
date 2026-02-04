@@ -18,8 +18,7 @@ class Login extends Component {
                     To Your Account
                   </h1>
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.{' '}
-                    <br />
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
                     Sit aliquid, Non distinctio vel iste.
                   </p>
                 </div>
@@ -30,16 +29,9 @@ class Login extends Component {
                 <div className="account-login-inner">
                   <form method="GET" className="ltn__form-box contact-form-box">
                     <input type="text" name="email" placeholder="Email*" />
-                    <input
-                      type="password"
-                      name="password"
-                      placeholder="Password*"
-                    />
+                    <input type="password" name="password" placeholder="Password*" />
                     <div className="btn-wrapper mt-0">
-                      <button
-                        className="theme-btn-1 btn btn-block"
-                        type="submit"
-                      >
+                      <button className="theme-btn-1 btn btn-block" type="submit">
                         SIGN IN
                       </button>
                     </div>
@@ -60,8 +52,7 @@ class Login extends Component {
                 <div className="account-create text-center pt-50">
                   <h4>DON'T HAVE AN ACCOUNT?</h4>
                   <p>
-                    Add items to your wishlistget personalised recommendations{' '}
-                    <br />
+                    Add items to your wishlistget personalised recommendations <br />
                     check out more quickly track your orders register
                   </p>
                   <div className="btn-wrapper go-top">
@@ -75,11 +66,7 @@ class Login extends Component {
           </div>
         </div>
         <div className="ltn__modal-area ltn__add-to-cart-modal-area----">
-          <div
-            className="modal fade"
-            id="ltn_forget_password_modal"
-            tabIndex={-1}
-          >
+          <div className="modal fade" id="ltn_forget_password_modal" tabIndex={-1}>
             <div className="modal-dialog modal-md" role="document">
               <div className="modal-content">
                 <div className="modal-header">
@@ -99,10 +86,7 @@ class Login extends Component {
                         <div className="col-12">
                           <div className="modal-product-info text-center">
                             <h4>FORGET PASSWORD?</h4>
-                            <p className="added-cart">
-                              {' '}
-                              Enter you register email.
-                            </p>
+                            <p className="added-cart"> Enter you register email.</p>
                             <form action="#" className="ltn__form-box">
                               <input
                                 type="text"
@@ -110,10 +94,7 @@ class Login extends Component {
                                 placeholder="Type your register email*"
                               />
                               <div className="btn-wrapper mt-0">
-                                <button
-                                  className="theme-btn-1 btn btn-full-width-2"
-                                  type="submit"
-                                >
+                                <button className="theme-btn-1 btn btn-full-width-2" type="submit">
                                   Submit
                                 </button>
                               </div>
@@ -122,14 +103,11 @@ class Login extends Component {
                           {/* additional-info */}
                           <div className="additional-info d-none">
                             <p>
-                              We want to give you <b>10% discount</b> for your
-                              first order, <br /> Use discount code at checkout
+                              We want to give you <b>10% discount</b> for your first order, <br />{' '}
+                              Use discount code at checkout
                             </p>
                             <div className="payment-method">
-                              <img
-                                src={publicUrl + 'assets/img/icons/payment.png'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/icons/payment.png'} alt="#" />
                             </div>
                           </div>
                         </div>

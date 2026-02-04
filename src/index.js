@@ -25,31 +25,13 @@ class Root extends Component {
             <Route path="/directory" component={DirectoryPage} />
 
             {/* Subscription Rates*/}
-            <Route
-              path="/subscription-rates-page"
-              component={SubscriptionRatesPage}
-            />
-            <Route
-              path="/directory-subscription-page"
-              component={DirectorySubscriptionPage}
-            />
-            <Route
-              path="/apartment-subscription-page"
-              component={ApartmentSubscriptionPage}
-            />
-            <Route
-              path="/commercial-subscription-page"
-              component={CommercialSubscriptionPage}
-            />
-            <Route
-              path="/mailing-subscription-page"
-              component={MailingSubscriptionPage}
-            />
+            <Route path="/subscription-rates-page" component={SubscriptionRatesPage} />
+            <Route path="/directory-subscription-page" component={DirectorySubscriptionPage} />
+            <Route path="/apartment-subscription-page" component={ApartmentSubscriptionPage} />
+            <Route path="/commercial-subscription-page" component={CommercialSubscriptionPage} />
+            <Route path="/mailing-subscription-page" component={MailingSubscriptionPage} />
 
-            <Route
-              path="/lease-agreement-page"
-              component={LeaseAgreementPage}
-            />
+            <Route path="/lease-agreement-page" component={LeaseAgreementPage} />
             <Route path="/contact" component={Contact} />
 
             <Route path="/properties" component={Shop} />

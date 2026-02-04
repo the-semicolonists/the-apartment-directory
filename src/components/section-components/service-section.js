@@ -28,10 +28,7 @@ class ServiceSection extends Component {
                   <h3>
                     <Link to="#">Explore up-to-date listings</Link>
                   </h3>
-                  <p>
-                    Stay ahead with frequently updated apartment listings
-                    curated for accuracy.
-                  </p>
+                  <p>Stay ahead with frequently updated apartment listings curated for accuracy.</p>
                 </div>
               </div>
             </div>
@@ -47,8 +44,7 @@ class ServiceSection extends Component {
                     <Link to="#">Access direct contact info</Link>
                   </h3>
                   <p>
-                    Get real owner and manager phone numbers for faster, more
-                    personal outreach.
+                    Get real owner and manager phone numbers for faster, more personal outreach.
                   </p>
                 </div>
               </div>
@@ -66,8 +62,7 @@ class ServiceSection extends Component {
                     <Link to="#">Save time with human-researched data</Link>
                   </h3>
                   <p>
-                    We go beyond databases — our team manually verifies and
-                    enriches every record.
+                    We go beyond databases — our team manually verifies and enriches every record.
                   </p>
                 </div>
               </div>
@@ -84,8 +79,7 @@ class ServiceSection extends Component {
                     <Link to="/contact">Search with Confidence</Link>
                   </h3>
                   <p>
-                    Our platform is built to help you discover your next home
-                    with ease and trust.
+                    Our platform is built to help you discover your next home with ease and trust.
                   </p>
                 </div>
               </div>
@@ -101,10 +95,7 @@ class ServiceSection extends Component {
                   <h3>
                     <Link to="/contact">Find Ideal Apartment</Link>
                   </h3>
-                  <p>
-                    Access wide range of verified properties that match your
-                    needs and budget.
-                  </p>
+                  <p>Access wide range of verified properties that match your needs and budget.</p>
                 </div>
               </div>
             </div>
@@ -120,8 +111,7 @@ class ServiceSection extends Component {
                     <Link to="/contact">Quality Properties Only</Link>
                   </h3>
                   <p>
-                    We feature only well-maintained apartments from trusted
-                    landlords and owners.
+                    We feature only well-maintained apartments from trusted landlords and owners.
                   </p>
                 </div>
               </div>

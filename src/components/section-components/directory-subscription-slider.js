@@ -7,8 +7,7 @@ const DirectorySubscriptionSlider = () => {
   const directories = [
     {
       image: 'slider-1.webp',
-      description:
-        'Covering 8 units and over in the greater L.A. area, publishes in Spring',
+      description: 'Covering 8 units and over in the greater L.A. area, publishes in Spring',
       title: 'LOS ANGELES APARTMENT DIRECTORY',
       price: '$986.00',
     },
@@ -21,15 +20,13 @@ const DirectorySubscriptionSlider = () => {
     },
     {
       image: 'slider-3.webp',
-      description:
-        'Covering 5-7 units in the greater L.A. area, publishes in Spring',
+      description: 'Covering 5-7 units in the greater L.A. area, publishes in Spring',
       title: 'LOS ANGELES APARTMENT DIRECTORY-SMALL UNIT EDITION',
       price: '$986.00',
     },
     {
       image: 'slider-4.webp',
-      description:
-        'Covering 3 units and over in all of Orange County, publishes in Fall)',
+      description: 'Covering 3 units and over in all of Orange County, publishes in Fall)',
       title: 'ORANGE COUNTY APARTMENT INDEX',
       price: '$952.00',
     },

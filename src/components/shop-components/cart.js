@@ -19,17 +19,12 @@ class CaetV1 extends Component {
                         <td className="cart-product-remove">x</td>
                         <td className="cart-product-image">
                           <Link to="/product-details">
-                            <img
-                              src={publicUrl + 'assets/img/product/1.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/1.png'} alt="#" />
                           </Link>
                         </td>
                         <td className="cart-product-info">
                           <h4>
-                            <Link to="/product-details">
-                              Brake Conversion Kit
-                            </Link>
+                            <Link to="/product-details">Brake Conversion Kit</Link>
                           </h4>
                         </td>
                         <td className="cart-product-price">$149.00</td>
@@ -49,10 +44,7 @@ class CaetV1 extends Component {
                         <td className="cart-product-remove">x</td>
                         <td className="cart-product-image">
                           <Link to="/product-details">
-                            <img
-                              src={publicUrl + 'assets/img/product/2.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/2.png'} alt="#" />
                           </Link>
                         </td>
                         <td className="cart-product-info">
@@ -77,17 +69,12 @@ class CaetV1 extends Component {
                         <td className="cart-product-remove">x</td>
                         <td className="cart-product-image">
                           <Link to="/product-details">
-                            <img
-                              src={publicUrl + 'assets/img/product/3.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/3.png'} alt="#" />
                           </Link>
                         </td>
                         <td className="cart-product-info">
                           <h4>
-                            <Link to="/product-details">
-                              Wheel Bearing Retainer
-                            </Link>
+                            <Link to="/product-details">Wheel Bearing Retainer</Link>
                           </h4>
                         </td>
                         <td className="cart-product-price">$75.00</td>
@@ -106,24 +93,14 @@ class CaetV1 extends Component {
                       <tr className="cart-coupon-row">
                         <td colSpan={6}>
                           <div className="cart-coupon">
-                            <input
-                              type="text"
-                              name="cart-coupon"
-                              placeholder="Coupon code"
-                            />
-                            <button
-                              type="submit"
-                              className="btn theme-btn-2 btn-effect-2"
-                            >
+                            <input type="text" name="cart-coupon" placeholder="Coupon code" />
+                            <button type="submit" className="btn theme-btn-2 btn-effect-2">
                               Apply Coupon
                             </button>
                           </div>
                         </td>
                         <td>
-                          <button
-                            type="submit"
-                            className="btn theme-btn-2 btn-effect-2-- disabled"
-                          >
+                          <button type="submit" className="btn theme-btn-2 btn-effect-2-- disabled">
                             Update Cart
                           </button>
                         </td>
@@ -158,10 +135,7 @@ class CaetV1 extends Component {
                     </tbody>
                   </table>
                   <div className="btn-wrapper text-right go-top">
-                    <Link
-                      to="/checkout"
-                      className="theme-btn-1 btn btn-effect-1"
-                    >
+                    <Link to="/checkout" className="theme-btn-1 btn btn-effect-1">
                       Proceed to checkout
                     </Link>
                   </div>

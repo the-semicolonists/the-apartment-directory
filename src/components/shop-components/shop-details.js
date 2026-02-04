@@ -42,20 +42,17 @@ class ShopDetails extends Component {
                 </label>
                 <h4 className="title-2">Description</h4>
                 <p>
-                  Massa tempor nec feugiat nisl pretium. Egestas fringilla
-                  phasellus faucibus scelerisque eleifend donec Porta nibh
-                  venenatis cras sed felis eget velit aliquet. Neque volutpat ac
-                  tincidunt vitae semper quis lectus. Turpis in eu mi bibendum
-                  neque egestas congue quisque. Sed elementum tempus egestas sed
-                  sed risus pretium quam. Dignissim sodales ut eu sem. Nibh
-                  mauris cursus mattis molestee iaculis at erat pellentesque. Id
-                  interdum velit laoreet id donec ultrices tincidunt.
+                  Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus
+                  scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet.
+                  Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum
+                  neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium
+                  quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at
+                  erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.
                 </p>
                 <p>
-                  To the left is the modern kitchen with central island, leading
-                  through to the unique breakfast family room which feature
-                  glass walls and doors out onto the garden and access to the
-                  separate utility room.
+                  To the left is the modern kitchen with central island, leading through to the
+                  unique breakfast family room which feature glass walls and doors out onto the
+                  garden and access to the separate utility room.
                 </p>
                 <h4 className="title-2">Property Detail</h4>
                 <div className="property-detail-info-list section-bg-1 clearfix mb-60">
@@ -358,11 +355,7 @@ class ShopDetails extends Component {
                       <a data-bs-toggle="tab" href="#liton_tab_3_1">
                         First Floor
                       </a>
-                      <a
-                        className="active show"
-                        data-bs-toggle="tab"
-                        href="#liton_tab_3_2"
-                      >
+                      <a className="active show" data-bs-toggle="tab" href="#liton_tab_3_2">
                         Second Floor
                       </a>
                       <a data-bs-toggle="tab" href="#liton_tab_3_3">
@@ -379,21 +372,17 @@ class ShopDetails extends Component {
                         <div className="row">
                           <div className="col-lg-7">
                             <div className="apartments-plan-img">
-                              <img
-                                src={publicUrl + 'assets/img/others/10.png'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/others/10.png'} alt="#" />
                             </div>
                           </div>
                           <div className="col-lg-5">
                             <div className="apartments-plan-info ltn__secondary-bg--- text-color-white---">
                               <h2>First Floor</h2>
                               <p>
-                                Enimad minim veniam quis nostrud exercitation
-                                ullamco laboris. Lorem ipsum dolor sit amet cons
-                                aetetur adipisicing elit sedo eiusmod
-                                tempor.Incididunt labore et dolore magna aliqua.
-                                sed ayd minim veniam.
+                                Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem
+                                ipsum dolor sit amet cons aetetur adipisicing elit sedo eiusmod
+                                tempor.Incididunt labore et dolore magna aliqua. sed ayd minim
+                                veniam.
                               </p>
                             </div>
                           </div>
@@ -404,12 +393,10 @@ class ShopDetails extends Component {
                                   <div className="apartments-info-list apartments-info-list-color mt-40---">
                                     <ul>
                                       <li>
-                                        <label>Total Area</label>{' '}
-                                        <span>2800 Sq. Ft</span>
+                                        <label>Total Area</label> <span>2800 Sq. Ft</span>
                                       </li>
                                       <li>
-                                        <label>Bedroom</label>{' '}
-                                        <span>150 Sq. Ft</span>
+                                        <label>Bedroom</label> <span>150 Sq. Ft</span>
                                       </li>
                                     </ul>
                                   </div>
@@ -418,12 +405,10 @@ class ShopDetails extends Component {
                                   <div className="apartments-info-list apartments-info-list-color mt-40---">
                                     <ul>
                                       <li>
-                                        <label>Belcony/Pets</label>{' '}
-                                        <span>Allowed</span>
+                                        <label>Belcony/Pets</label> <span>Allowed</span>
                                       </li>
                                       <li>
-                                        <label>Lounge</label>{' '}
-                                        <span>650 Sq. Ft</span>
+                                        <label>Lounge</label> <span>650 Sq. Ft</span>
                                       </li>
                                     </ul>
                                   </div>
@@ -434,29 +419,22 @@ class ShopDetails extends Component {
                         </div>
                       </div>
                     </div>
-                    <div
-                      className="tab-pane fade active show"
-                      id="liton_tab_3_2"
-                    >
+                    <div className="tab-pane fade active show" id="liton_tab_3_2">
                       <div className="ltn__product-tab-content-inner">
                         <div className="row">
                           <div className="col-lg-7">
                             <div className="apartments-plan-img">
-                              <img
-                                src={publicUrl + 'assets/img/others/10.png'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/others/10.png'} alt="#" />
                             </div>
                           </div>
                           <div className="col-lg-5">
                             <div className="apartments-plan-info ltn__secondary-bg--- text-color-white---">
                               <h2>Second Floor</h2>
                               <p>
-                                Enimad minim veniam quis nostrud exercitation
-                                ullamco laboris. Lorem ipsum dolor sit amet cons
-                                aetetur adipisicing elit sedo eiusmod
-                                tempor.Incididunt labore et dolore magna aliqua.
-                                sed ayd minim veniam.
+                                Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem
+                                ipsum dolor sit amet cons aetetur adipisicing elit sedo eiusmod
+                                tempor.Incididunt labore et dolore magna aliqua. sed ayd minim
+                                veniam.
                               </p>
                             </div>
                           </div>
@@ -467,12 +445,10 @@ class ShopDetails extends Component {
                                   <div className="apartments-info-list apartments-info-list-color mt-40---">
                                     <ul>
                                       <li>
-                                        <label>Total Area</label>{' '}
-                                        <span>2800 Sq. Ft</span>
+                                        <label>Total Area</label> <span>2800 Sq. Ft</span>
                                       </li>
                                       <li>
-                                        <label>Bedroom</label>{' '}
-                                        <span>150 Sq. Ft</span>
+                                        <label>Bedroom</label> <span>150 Sq. Ft</span>
                                       </li>
                                     </ul>
                                   </div>
@@ -481,12 +457,10 @@ class ShopDetails extends Component {
                                   <div className="apartments-info-list apartments-info-list-color mt-40---">
                                     <ul>
                                       <li>
-                                        <label>Belcony/Pets</label>{' '}
-                                        <span>Allowed</span>
+                                        <label>Belcony/Pets</label> <span>Allowed</span>
                                       </li>
                                       <li>
-                                        <label>Lounge</label>{' '}
-                                        <span>650 Sq. Ft</span>
+                                        <label>Lounge</label> <span>650 Sq. Ft</span>
                                       </li>
                                     </ul>
                                   </div>
@@ -502,21 +476,17 @@ class ShopDetails extends Component {
                         <div className="row">
                           <div className="col-lg-7">
                             <div className="apartments-plan-img">
-                              <img
-                                src={publicUrl + 'assets/img/others/10.png'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/others/10.png'} alt="#" />
                             </div>
                           </div>
                           <div className="col-lg-5">
                             <div className="apartments-plan-info ltn__secondary-bg--- text-color-white---">
                               <h2>Third Floor</h2>
                               <p>
-                                Enimad minim veniam quis nostrud exercitation
-                                ullamco laboris. Lorem ipsum dolor sit amet cons
-                                aetetur adipisicing elit sedo eiusmod
-                                tempor.Incididunt labore et dolore magna aliqua.
-                                sed ayd minim veniam.
+                                Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem
+                                ipsum dolor sit amet cons aetetur adipisicing elit sedo eiusmod
+                                tempor.Incididunt labore et dolore magna aliqua. sed ayd minim
+                                veniam.
                               </p>
                             </div>
                           </div>
@@ -527,12 +497,10 @@ class ShopDetails extends Component {
                                   <div className="apartments-info-list apartments-info-list-color mt-40---">
                                     <ul>
                                       <li>
-                                        <label>Total Area</label>{' '}
-                                        <span>2800 Sq. Ft</span>
+                                        <label>Total Area</label> <span>2800 Sq. Ft</span>
                                       </li>
                                       <li>
-                                        <label>Bedroom</label>{' '}
-                                        <span>150 Sq. Ft</span>
+                                        <label>Bedroom</label> <span>150 Sq. Ft</span>
                                       </li>
                                     </ul>
                                   </div>
@@ -541,12 +509,10 @@ class ShopDetails extends Component {
                                   <div className="apartments-info-list apartments-info-list-color mt-40---">
                                     <ul>
                                       <li>
-                                        <label>Belcony/Pets</label>{' '}
-                                        <span>Allowed</span>
+                                        <label>Belcony/Pets</label> <span>Allowed</span>
                                       </li>
                                       <li>
-                                        <label>Lounge</label>{' '}
-                                        <span>650 Sq. Ft</span>
+                                        <label>Lounge</label> <span>650 Sq. Ft</span>
                                       </li>
                                     </ul>
                                   </div>
@@ -562,21 +528,17 @@ class ShopDetails extends Component {
                         <div className="row">
                           <div className="col-lg-7">
                             <div className="apartments-plan-img">
-                              <img
-                                src={publicUrl + 'assets/img/others/10.png'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/others/10.png'} alt="#" />
                             </div>
                           </div>
                           <div className="col-lg-5">
                             <div className="apartments-plan-info ltn__secondary-bg--- text-color-white---">
                               <h2>Top Garden</h2>
                               <p>
-                                Enimad minim veniam quis nostrud exercitation
-                                ullamco laboris. Lorem ipsum dolor sit amet cons
-                                aetetur adipisicing elit sedo eiusmod
-                                tempor.Incididunt labore et dolore magna aliqua.
-                                sed ayd minim veniam.
+                                Enimad minim veniam quis nostrud exercitation ullamco laboris. Lorem
+                                ipsum dolor sit amet cons aetetur adipisicing elit sedo eiusmod
+                                tempor.Incididunt labore et dolore magna aliqua. sed ayd minim
+                                veniam.
                               </p>
                             </div>
                           </div>
@@ -587,12 +549,10 @@ class ShopDetails extends Component {
                                   <div className="apartments-info-list apartments-info-list-color mt-40---">
                                     <ul>
                                       <li>
-                                        <label>Total Area</label>{' '}
-                                        <span>2800 Sq. Ft</span>
+                                        <label>Total Area</label> <span>2800 Sq. Ft</span>
                                       </li>
                                       <li>
-                                        <label>Bedroom</label>{' '}
-                                        <span>150 Sq. Ft</span>
+                                        <label>Bedroom</label> <span>150 Sq. Ft</span>
                                       </li>
                                     </ul>
                                   </div>
@@ -601,12 +561,10 @@ class ShopDetails extends Component {
                                   <div className="apartments-info-list apartments-info-list-color mt-40---">
                                     <ul>
                                       <li>
-                                        <label>Belcony/Pets</label>{' '}
-                                        <span>Allowed</span>
+                                        <label>Belcony/Pets</label> <span>Allowed</span>
                                       </li>
                                       <li>
-                                        <label>Lounge</label>{' '}
-                                        <span>650 Sq. Ft</span>
+                                        <label>Lounge</label> <span>650 Sq. Ft</span>
                                       </li>
                                     </ul>
                                   </div>
@@ -676,10 +634,7 @@ class ShopDetails extends Component {
                         <li>
                           <div className="ltn__comment-item clearfix">
                             <div className="ltn__commenter-img">
-                              <img
-                                src={publicUrl + 'assets/img/testimonial/1.jpg'}
-                                alt="Image"
-                              />
+                              <img src={publicUrl + 'assets/img/testimonial/1.jpg'} alt="Image" />
                             </div>
                             <div className="ltn__commenter-comment">
                               <h6>
@@ -715,23 +670,17 @@ class ShopDetails extends Component {
                                 </ul>
                               </div>
                               <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Doloribus, omnis fugit
-                                corporis iste magnam ratione.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus,
+                                omnis fugit corporis iste magnam ratione.
                               </p>
-                              <span className="ltn__comment-reply-btn">
-                                September 3, 2020
-                              </span>
+                              <span className="ltn__comment-reply-btn">September 3, 2020</span>
                             </div>
                           </div>
                         </li>
                         <li>
                           <div className="ltn__comment-item clearfix">
                             <div className="ltn__commenter-img">
-                              <img
-                                src={publicUrl + 'assets/img/testimonial/3.jpg'}
-                                alt="Image"
-                              />
+                              <img src={publicUrl + 'assets/img/testimonial/3.jpg'} alt="Image" />
                             </div>
                             <div className="ltn__commenter-comment">
                               <h6>
@@ -767,23 +716,17 @@ class ShopDetails extends Component {
                                 </ul>
                               </div>
                               <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Doloribus, omnis fugit
-                                corporis iste magnam ratione.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus,
+                                omnis fugit corporis iste magnam ratione.
                               </p>
-                              <span className="ltn__comment-reply-btn">
-                                September 2, 2020
-                              </span>
+                              <span className="ltn__comment-reply-btn">September 2, 2020</span>
                             </div>
                           </div>
                         </li>
                         <li>
                           <div className="ltn__comment-item clearfix">
                             <div className="ltn__commenter-img">
-                              <img
-                                src={publicUrl + 'assets/img/testimonial/2.jpg'}
-                                alt="Image"
-                              />
+                              <img src={publicUrl + 'assets/img/testimonial/2.jpg'} alt="Image" />
                             </div>
                             <div className="ltn__commenter-comment">
                               <h6>
@@ -819,13 +762,10 @@ class ShopDetails extends Component {
                                 </ul>
                               </div>
                               <p>
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Doloribus, omnis fugit
-                                corporis iste magnam ratione.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus,
+                                omnis fugit corporis iste magnam ratione.
                               </p>
-                              <span className="ltn__comment-reply-btn">
-                                September 2, 2020
-                              </span>
+                              <span className="ltn__comment-reply-btn">September 2, 2020</span>
                             </div>
                           </div>
                         </li>
@@ -871,10 +811,7 @@ class ShopDetails extends Component {
                         </div>
                       </div>
                       <div className="input-item input-item-textarea ltn__custom-icon">
-                        <textarea
-                          placeholder="Type your comments...."
-                          defaultValue={''}
-                        />
+                        <textarea placeholder="Type your comments...." defaultValue={''} />
                       </div>
                       <div className="input-item input-item-name ltn__custom-icon">
                         <input type="text" placeholder="Type your name...." />
@@ -883,16 +820,11 @@ class ShopDetails extends Component {
                         <input type="email" placeholder="Type your email...." />
                       </div>
                       <div className="input-item input-item-website ltn__custom-icon">
-                        <input
-                          type="text"
-                          name="website"
-                          placeholder="Type your website...."
-                        />
+                        <input type="text" name="website" placeholder="Type your website...." />
                       </div>
                       <label className="mb-0">
-                        <input type="checkbox" name="agree" /> Save my name,
-                        email, and website in this browser for the next time I
-                        comment.
+                        <input type="checkbox" name="agree" /> Save my name, email, and website in
+                        this browser for the next time I comment.
                       </label>
                       <div className="btn-wrapper">
                         <button
@@ -912,18 +844,12 @@ class ShopDetails extends Component {
                     <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                       <div className="product-img">
                         <Link to="/shop">
-                          <img
-                            src={publicUrl + 'assets/img/product-3/1.jpg'}
-                            alt="#"
-                          />
+                          <img src={publicUrl + 'assets/img/product-3/1.jpg'} alt="#" />
                         </Link>
                         <div className="real-estate-agent">
                           <div className="agent-img">
                             <Link to="/team-details">
-                              <img
-                                src={publicUrl + 'assets/img/blog/author.jpg'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                             </Link>
                           </div>
                         </div>
@@ -941,8 +867,7 @@ class ShopDetails extends Component {
                           <ul>
                             <li>
                               <Link to="/shop">
-                                <i className="flaticon-pin" /> Belmont Gardens,
-                                Chicago
+                                <i className="flaticon-pin" /> Belmont Gardens, Chicago
                               </Link>
                             </li>
                           </ul>
@@ -1005,18 +930,12 @@ class ShopDetails extends Component {
                     <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                       <div className="product-img">
                         <Link to="/shop">
-                          <img
-                            src={publicUrl + 'assets/img/product-3/2.jpg'}
-                            alt="#"
-                          />
+                          <img src={publicUrl + 'assets/img/product-3/2.jpg'} alt="#" />
                         </Link>
                         <div className="real-estate-agent">
                           <div className="agent-img">
                             <Link to="/team-details">
-                              <img
-                                src={publicUrl + 'assets/img/blog/author.jpg'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                             </Link>
                           </div>
                         </div>
@@ -1034,8 +953,7 @@ class ShopDetails extends Component {
                           <ul>
                             <li>
                               <Link to="/shop">
-                                <i className="flaticon-pin" /> Belmont Gardens,
-                                Chicago
+                                <i className="flaticon-pin" /> Belmont Gardens, Chicago
                               </Link>
                             </li>
                           </ul>
@@ -1101,10 +1019,7 @@ class ShopDetails extends Component {
                 {/* Author Widget */}
                 <div className="widget ltn__author-widget">
                   <div className="ltn__author-widget-inner text-center">
-                    <img
-                      src={publicUrl + 'assets/img/team/4.jpg'}
-                      alt="Image"
-                    />
+                    <img src={publicUrl + 'assets/img/team/4.jpg'} alt="Image" />
                     <h5>Rosalina D. Willaimson</h5>
                     <small>Traveller/Photographer</small>
                     <div className="product-ratting">
@@ -1141,9 +1056,8 @@ class ShopDetails extends Component {
                       </ul>
                     </div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Veritatis distinctio, odio, eligendi suscipit
-                      reprehenderit atque.
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
+                      distinctio, odio, eligendi suscipit reprehenderit atque.
                     </p>
                     <div className="ltn__social-media">
                       <ul>
@@ -1173,15 +1087,9 @@ class ShopDetails extends Component {
                 </div>
                 {/* Search Widget */}
                 <div className="widget ltn__search-widget">
-                  <h4 className="ltn__widget-title ltn__widget-title-border-2">
-                    Search Objects
-                  </h4>
+                  <h4 className="ltn__widget-title ltn__widget-title-border-2">Search Objects</h4>
                   <form action="#">
-                    <input
-                      type="text"
-                      name="search"
-                      placeholder="Search your keyword..."
-                    />
+                    <input type="text" name="search" placeholder="Search your keyword..." />
                     <button type="submit">
                       <i className="fas fa-search" />
                     </button>
@@ -1193,21 +1101,9 @@ class ShopDetails extends Component {
                     Drop Messege For Book
                   </h4>
                   <form action="#">
-                    <input
-                      type="text"
-                      name="yourname"
-                      placeholder="Your Name*"
-                    />
-                    <input
-                      type="text"
-                      name="youremail"
-                      placeholder="Your e-Mail*"
-                    />
-                    <textarea
-                      name="yourmessage"
-                      placeholder="Write Message..."
-                      defaultValue={''}
-                    />
+                    <input type="text" name="yourname" placeholder="Your Name*" />
+                    <input type="text" name="youremail" placeholder="Your e-Mail*" />
+                    <textarea name="yourmessage" placeholder="Write Message..." defaultValue={''} />
                     <button type="submit" className="btn theme-btn-1">
                       Send Messege
                     </button>
@@ -1223,10 +1119,7 @@ class ShopDetails extends Component {
                       <div className="top-rated-product-item clearfix">
                         <div className="top-rated-product-img">
                           <Link to="/product-details">
-                            <img
-                              src={publicUrl + 'assets/img/product/1.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/1.png'} alt="#" />
                           </Link>
                         </div>
                         <div className="top-rated-product-info">
@@ -1273,10 +1166,7 @@ class ShopDetails extends Component {
                       <div className="top-rated-product-item clearfix">
                         <div className="top-rated-product-img">
                           <Link to="/product-details">
-                            <img
-                              src={publicUrl + 'assets/img/product/2.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/2.png'} alt="#" />
                           </Link>
                         </div>
                         <div className="top-rated-product-info">
@@ -1323,10 +1213,7 @@ class ShopDetails extends Component {
                       <div className="top-rated-product-item clearfix">
                         <div className="top-rated-product-img">
                           <Link to="/product-details">
-                            <img
-                              src={publicUrl + 'assets/img/product/3.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/3.png'} alt="#" />
                           </Link>
                         </div>
                         <div className="top-rated-product-info">
@@ -1373,9 +1260,7 @@ class ShopDetails extends Component {
                 </div>
                 {/* Menu Widget (Category) */}
                 <div className="widget ltn__menu-widget ltn__menu-widget-2--- ltn__menu-widget-2-color-2---">
-                  <h4 className="ltn__widget-title ltn__widget-title-border-2">
-                    Top Categories
-                  </h4>
+                  <h4 className="ltn__widget-title ltn__widget-title-border-2">Top Categories</h4>
                   <ul className="go-top">
                     <li>
                       <Link to="/blog-grid">
@@ -1415,18 +1300,12 @@ class ShopDetails extends Component {
                       <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div className="product-img go-top">
                           <Link to="/shop">
-                            <img
-                              src={publicUrl + 'assets/img/product-3/6.jpg'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product-3/6.jpg'} alt="#" />
                           </Link>
                           <div className="real-estate-agent">
                             <div className="agent-img">
                               <Link to="/team-details">
-                                <img
-                                  src={publicUrl + 'assets/img/blog/author.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                               </Link>
                             </div>
                           </div>
@@ -1444,8 +1323,7 @@ class ShopDetails extends Component {
                             <ul>
                               <li>
                                 <Link to="/shop">
-                                  <i className="flaticon-pin" /> Belmont
-                                  Gardens, Chicago
+                                  <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                 </Link>
                               </li>
                             </ul>
@@ -1472,18 +1350,12 @@ class ShopDetails extends Component {
                       <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div className="product-img">
                           <a href="product-details.html">
-                            <img
-                              src={publicUrl + 'assets/img/product-3/4.jpg'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product-3/4.jpg'} alt="#" />
                           </a>
                           <div className="real-estate-agent">
                             <div className="agent-img">
                               <Link to="/team-details">
-                                <img
-                                  src={publicUrl + 'assets/img/blog/author.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                               </Link>
                             </div>
                           </div>
@@ -1495,16 +1367,13 @@ class ShopDetails extends Component {
                             </span>
                           </div>
                           <h2 className="product-title">
-                            <a href="product-details.html">
-                              New Apartment Nice View
-                            </a>
+                            <a href="product-details.html">New Apartment Nice View</a>
                           </h2>
                           <div className="product-img-location">
                             <ul>
                               <li>
                                 <a href="product-details.html">
-                                  <i className="flaticon-pin" /> Belmont
-                                  Gardens, Chicago
+                                  <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                 </a>
                               </li>
                             </ul>
@@ -1531,18 +1400,12 @@ class ShopDetails extends Component {
                       <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                         <div className="product-img">
                           <a href="product-details.html">
-                            <img
-                              src={publicUrl + 'assets/img/product-3/5.jpg'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product-3/5.jpg'} alt="#" />
                           </a>
                           <div className="real-estate-agent">
                             <div className="agent-img">
                               <Link to="/team-details">
-                                <img
-                                  src={publicUrl + 'assets/img/blog/author.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                               </Link>
                             </div>
                           </div>
@@ -1554,16 +1417,13 @@ class ShopDetails extends Component {
                             </span>
                           </div>
                           <h2 className="product-title">
-                            <a href="product-details.html">
-                              New Apartment Nice View
-                            </a>
+                            <a href="product-details.html">New Apartment Nice View</a>
                           </h2>
                           <div className="product-img-location">
                             <ul>
                               <li>
                                 <a href="product-details.html">
-                                  <i className="flaticon-pin" /> Belmont
-                                  Gardens, Chicago
+                                  <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                 </a>
                               </li>
                             </ul>
@@ -1590,25 +1450,18 @@ class ShopDetails extends Component {
                 </div>
                 {/* Popular Post Widget */}
                 <div className="widget ltn__popular-post-widget go-top">
-                  <h4 className="ltn__widget-title ltn__widget-title-border-2">
-                    Leatest Blogs
-                  </h4>
+                  <h4 className="ltn__widget-title ltn__widget-title-border-2">Leatest Blogs</h4>
                   <ul>
                     <li>
                       <div className="popular-post-widget-item clearfix">
                         <div className="popular-post-widget-img">
                           <Link to="/blog-details">
-                            <img
-                              src={publicUrl + 'assets/img/team/5.jpg'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/team/5.jpg'} alt="#" />
                           </Link>
                         </div>
                         <div className="popular-post-widget-brief">
                           <h6>
-                            <Link to="/blog-details">
-                              Lorem ipsum dolor sit cing elit, sed do.
-                            </Link>
+                            <Link to="/blog-details">Lorem ipsum dolor sit cing elit, sed do.</Link>
                           </h6>
                           <div className="ltn__blog-meta">
                             <ul>
@@ -1627,17 +1480,12 @@ class ShopDetails extends Component {
                       <div className="popular-post-widget-item clearfix">
                         <div className="popular-post-widget-img">
                           <Link to="/blog-details">
-                            <img
-                              src={publicUrl + 'assets/img/team/6.jpg'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/team/6.jpg'} alt="#" />
                           </Link>
                         </div>
                         <div className="popular-post-widget-brief">
                           <h6>
-                            <Link to="/blog-details">
-                              Lorem ipsum dolor sit cing elit, sed do.
-                            </Link>
+                            <Link to="/blog-details">Lorem ipsum dolor sit cing elit, sed do.</Link>
                           </h6>
                           <div className="ltn__blog-meta">
                             <ul>
@@ -1656,17 +1504,12 @@ class ShopDetails extends Component {
                       <div className="popular-post-widget-item clearfix">
                         <div className="popular-post-widget-img">
                           <Link to="/blog-details">
-                            <img
-                              src={publicUrl + 'assets/img/team/7.jpg'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/team/7.jpg'} alt="#" />
                           </Link>
                         </div>
                         <div className="popular-post-widget-brief">
                           <h6>
-                            <Link to="/blog-details">
-                              Lorem ipsum dolor sit cing elit, sed do.
-                            </Link>
+                            <Link to="/blog-details">Lorem ipsum dolor sit cing elit, sed do.</Link>
                           </h6>
                           <div className="ltn__blog-meta">
                             <ul>
@@ -1685,17 +1528,12 @@ class ShopDetails extends Component {
                       <div className="popular-post-widget-item clearfix">
                         <div className="popular-post-widget-img">
                           <Link to="/blog-details">
-                            <img
-                              src={publicUrl + 'assets/img/team/8.jpg'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/team/8.jpg'} alt="#" />
                           </Link>
                         </div>
                         <div className="popular-post-widget-brief">
                           <h6>
-                            <Link to="/blog-details">
-                              Lorem ipsum dolor sit cing elit, sed do.
-                            </Link>
+                            <Link to="/blog-details">Lorem ipsum dolor sit cing elit, sed do.</Link>
                           </h6>
                           <div className="ltn__blog-meta">
                             <ul>
@@ -1714,9 +1552,7 @@ class ShopDetails extends Component {
                 </div>
                 {/* Social Media Widget */}
                 <div className="widget ltn__social-media-widget">
-                  <h4 className="ltn__widget-title ltn__widget-title-border-2">
-                    Follow us
-                  </h4>
+                  <h4 className="ltn__widget-title ltn__widget-title-border-2">Follow us</h4>
                   <div className="ltn__social-media-2">
                     <ul>
                       <li>
@@ -1744,9 +1580,7 @@ class ShopDetails extends Component {
                 </div>
                 {/* Tagcloud Widget */}
                 <div className="widget ltn__tagcloud-widget go-top">
-                  <h4 className="ltn__widget-title ltn__widget-title-border-2">
-                    Popular Tags
-                  </h4>
+                  <h4 className="ltn__widget-title ltn__widget-title-border-2">Popular Tags</h4>
                   <ul>
                     <li>
                       <Link to="/blog-grid">Popular</Link>

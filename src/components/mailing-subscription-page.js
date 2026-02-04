@@ -8,10 +8,7 @@ const MailingSubscriptionPage = () => {
   return (
     <div>
       <Navbar />
-      <PageHeader
-        headertitle="Subscription Rates"
-        subheader="Mailing Label/List Subscription"
-      />
+      <PageHeader headertitle="Subscription Rates" subheader="Mailing Label/List Subscription" />
       <MailingSubscriptionContent />
       <CallToAction />
       <Footer />

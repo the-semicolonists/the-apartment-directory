@@ -116,10 +116,7 @@ class ShopGridV1 extends Component {
                   </ul>
                 </div>
                 <div className="tab-content">
-                  <div
-                    className="tab-pane fade active show"
-                    id="liton_product_grid"
-                  >
+                  <div className="tab-pane fade active show" id="liton_product_grid">
                     <div className="ltn__product-tab-content-inner ltn__product-grid-view">
                       <div className="row">
                         <div className="col-lg-12">
@@ -138,10 +135,7 @@ class ShopGridV1 extends Component {
                           </div>
                         </div>
                         {properties.map((item, index) => (
-                          <div
-                            key={`card-${index}`}
-                            className="col-xl-6 col-sm-6 col-12"
-                          >
+                          <div key={`card-${index}`} className="col-xl-6 col-sm-6 col-12">
                             <PropertyCardHorizontal {...item} />
                           </div>
                         ))}
@@ -167,10 +161,7 @@ class ShopGridV1 extends Component {
                           </div>
                         </div>
                         {properties.map((item, index) => (
-                          <div
-                            key={`card-vertical-${index}`}
-                            className="col-12"
-                          >
+                          <div key={`card-vertical-${index}`} className="col-12">
                             <PropertyCardVertical {...item} />
                           </div>
                         ))}
@@ -236,26 +227,18 @@ class ShopGridV1 extends Component {
                       <div className="row">
                         <div className="col-12">
                           <div className="modal-product-img">
-                            <img
-                              src={publicUrl + 'assets/img/product/7.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/7.png'} alt="#" />
                           </div>
                           <div className="modal-product-info go-top">
                             <h5>
-                              <Link to="/property-details">
-                                Brake Conversion Kit
-                              </Link>
+                              <Link to="/property-details">Brake Conversion Kit</Link>
                             </h5>
                             <p className="added-cart">
-                              <i className="fa fa-check-circle" /> Successfully
-                              added to your Wishlist
+                              <i className="fa fa-check-circle" /> Successfully added to your
+                              Wishlist
                             </p>
                             <div className="btn-wrapper">
-                              <Link
-                                to="/wishlist"
-                                className="theme-btn-1 btn btn-effect-1"
-                              >
+                              <Link to="/wishlist" className="theme-btn-1 btn btn-effect-1">
                                 View Wishlist
                               </Link>
                             </div>
@@ -263,14 +246,11 @@ class ShopGridV1 extends Component {
                           {/* additional-info */}
                           <div className="additional-info d-none">
                             <p>
-                              We want to give you <b>10% discount</b> for your
-                              first order, <br /> Use discount code at checkout
+                              We want to give you <b>10% discount</b> for your first order, <br />{' '}
+                              Use discount code at checkout
                             </p>
                             <div className="payment-method">
-                              <img
-                                src={publicUrl + 'assets/img/icons/payment.png'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/icons/payment.png'} alt="#" />
                             </div>
                           </div>
                         </div>
@@ -304,10 +284,7 @@ class ShopGridV1 extends Component {
                       <div className="row">
                         <div className="col-lg-6 col-12">
                           <div className="modal-product-img">
-                            <img
-                              src={publicUrl + 'assets/img/product/4.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/4.png'} alt="#" />
                           </div>
                         </div>
                         <div className="col-lg-6 col-12">
@@ -446,32 +423,21 @@ class ShopGridV1 extends Component {
                       <div className="row">
                         <div className="col-12">
                           <div className="modal-product-img">
-                            <img
-                              src={publicUrl + 'assets/img/product/1.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/1.png'} alt="#" />
                           </div>
                           <div className="modal-product-info go-top">
                             <h5 className="go-top">
-                              <Link to="/property-details">
-                                Brake Conversion Kit
-                              </Link>
+                              <Link to="/property-details">Brake Conversion Kit</Link>
                             </h5>
                             <p className="added-cart">
                               <i className="fa fa-check-circle" />
                               Successfully added to your Cart
                             </p>
                             <div className="btn-wrapper">
-                              <Link
-                                to="/cart"
-                                className="theme-btn-1 btn btn-effect-1"
-                              >
+                              <Link to="/cart" className="theme-btn-1 btn btn-effect-1">
                                 View Cart
                               </Link>
-                              <Link
-                                to="/checkout"
-                                className="theme-btn-2 btn btn-effect-2"
-                              >
+                              <Link to="/checkout" className="theme-btn-2 btn btn-effect-2">
                                 Checkout
                               </Link>
                             </div>
@@ -479,14 +445,11 @@ class ShopGridV1 extends Component {
                           {/* additional-info */}
                           <div className="additional-info d-none">
                             <p>
-                              We want to give you <b>10% discount</b> for your
-                              first order, <br /> Use discount code at checkout
+                              We want to give you <b>10% discount</b> for your first order, <br />{' '}
+                              Use discount code at checkout
                             </p>
                             <div className="payment-method">
-                              <img
-                                src={publicUrl + 'assets/img/icons/payment.png'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/icons/payment.png'} alt="#" />
                             </div>
                           </div>
                         </div>

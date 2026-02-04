@@ -27,9 +27,9 @@ const MailingSubscriptionContent = ({ spacing = '' }) => {
             <div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
               <h4 className="title-2">Available Data</h4>
               <p>
-                The following outlines our available mailing labels, lists, and
-                related data. Generally, labels and lists take 3 days to
-                process. Delivery is typically via UPS within one business day.
+                The following outlines our available mailing labels, lists, and related data.
+                Generally, labels and lists take 3 days to process. Delivery is typically via UPS
+                within one business day.
               </p>
 
               <div className="property-detail-info-list rounded clearfix mb-60 section-bg-1">

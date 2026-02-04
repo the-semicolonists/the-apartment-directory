@@ -64,10 +64,7 @@ const PropertyCardVertical = ({
         <div className="real-estate-agent">
           <div className="agent-img">
             <Link to="/shop">
-              <img
-                src={agentImage || publicUrl + 'assets/img/blog/author.jpg'}
-                alt="Agent"
-              />
+              <img src={agentImage || publicUrl + 'assets/img/blog/author.jpg'} alt="Agent" />
             </Link>
           </div>
           <div className="agent-brief">

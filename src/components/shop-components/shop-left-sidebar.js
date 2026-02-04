@@ -61,10 +61,7 @@ class ShopGridV1 extends Component {
                   </ul>
                 </div>
                 <div className="tab-content">
-                  <div
-                    className="tab-pane fade active show"
-                    id="liton_product_grid"
-                  >
+                  <div className="tab-pane fade active show" id="liton_product_grid">
                     <div className="ltn__product-tab-content-inner ltn__product-grid-view">
                       <div className="row">
                         <div className="col-lg-12">
@@ -87,20 +84,12 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/1.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/1.jpg'} alt="#" />
                               </Link>
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                               </div>
@@ -112,16 +101,13 @@ class ShopGridV1 extends Component {
                                 </ul>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -163,10 +149,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -187,20 +170,12 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/2.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/2.jpg'} alt="#" />
                               </Link>
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                               </div>
@@ -212,16 +187,13 @@ class ShopGridV1 extends Component {
                                 </ul>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -263,10 +235,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -287,20 +256,12 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/3.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/3.jpg'} alt="#" />
                               </Link>
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                               </div>
@@ -312,16 +273,13 @@ class ShopGridV1 extends Component {
                                 </ul>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -363,10 +321,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -387,20 +342,12 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/4.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/4.jpg'} alt="#" />
                               </Link>
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                               </div>
@@ -412,16 +359,13 @@ class ShopGridV1 extends Component {
                                 </ul>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -463,10 +407,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -487,20 +428,12 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/5.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/5.jpg'} alt="#" />
                               </Link>
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                               </div>
@@ -512,16 +445,13 @@ class ShopGridV1 extends Component {
                                 </ul>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -563,10 +493,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -587,20 +514,12 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/6.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/6.jpg'} alt="#" />
                               </Link>
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                               </div>
@@ -612,16 +531,13 @@ class ShopGridV1 extends Component {
                                 </ul>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -663,10 +579,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -709,10 +622,7 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/1.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/1.jpg'} alt="#" />
                               </Link>
                             </div>
                             <div className="product-info">
@@ -729,16 +639,13 @@ class ShopGridV1 extends Component {
                                 </div>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -762,19 +669,12 @@ class ShopGridV1 extends Component {
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                                 <div className="agent-brief">
                                   <h6>
-                                    <Link to="/team-details">
-                                      William Seklo
-                                    </Link>
+                                    <Link to="/team-details">William Seklo</Link>
                                   </h6>
                                   <small>Estate Agents</small>
                                 </div>
@@ -802,10 +702,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -819,10 +716,7 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/2.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/2.jpg'} alt="#" />
                               </Link>
                             </div>
                             <div className="product-info">
@@ -839,16 +733,13 @@ class ShopGridV1 extends Component {
                                 </div>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -872,19 +763,12 @@ class ShopGridV1 extends Component {
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                                 <div className="agent-brief">
                                   <h6>
-                                    <Link to="/team-details">
-                                      William Seklo
-                                    </Link>
+                                    <Link to="/team-details">William Seklo</Link>
                                   </h6>
                                   <small>Estate Agents</small>
                                 </div>
@@ -912,10 +796,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -929,10 +810,7 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/3.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/3.jpg'} alt="#" />
                               </Link>
                             </div>
                             <div className="product-info">
@@ -949,16 +827,13 @@ class ShopGridV1 extends Component {
                                 </div>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -982,19 +857,12 @@ class ShopGridV1 extends Component {
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                                 <div className="agent-brief">
                                   <h6>
-                                    <Link to="/team-details">
-                                      William Seklo
-                                    </Link>
+                                    <Link to="/team-details">William Seklo</Link>
                                   </h6>
                                   <small>Estate Agents</small>
                                 </div>
@@ -1022,10 +890,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -1039,10 +904,7 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/4.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/4.jpg'} alt="#" />
                               </Link>
                             </div>
                             <div className="product-info">
@@ -1059,16 +921,13 @@ class ShopGridV1 extends Component {
                                 </div>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -1092,19 +951,12 @@ class ShopGridV1 extends Component {
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                                 <div className="agent-brief">
                                   <h6>
-                                    <Link to="/team-details">
-                                      William Seklo
-                                    </Link>
+                                    <Link to="/team-details">William Seklo</Link>
                                   </h6>
                                   <small>Estate Agents</small>
                                 </div>
@@ -1132,10 +984,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -1149,10 +998,7 @@ class ShopGridV1 extends Component {
                           <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                             <div className="product-img go-top">
                               <Link to="/product-details">
-                                <img
-                                  src={publicUrl + 'assets/img/product-3/5.jpg'}
-                                  alt="#"
-                                />
+                                <img src={publicUrl + 'assets/img/product-3/5.jpg'} alt="#" />
                               </Link>
                             </div>
                             <div className="product-info">
@@ -1169,16 +1015,13 @@ class ShopGridV1 extends Component {
                                 </div>
                               </div>
                               <h2 className="product-title go-top">
-                                <Link to="/product-details">
-                                  New Apartment Nice View
-                                </Link>
+                                <Link to="/product-details">New Apartment Nice View</Link>
                               </h2>
                               <div className="product-img-location go-top">
                                 <ul>
                                   <li>
                                     <Link to="/contact">
-                                      <i className="flaticon-pin" /> Belmont
-                                      Gardens, Chicago
+                                      <i className="flaticon-pin" /> Belmont Gardens, Chicago
                                     </Link>
                                   </li>
                                 </ul>
@@ -1202,19 +1045,12 @@ class ShopGridV1 extends Component {
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link to="/shop">
-                                    <img
-                                      src={
-                                        publicUrl + 'assets/img/blog/author.jpg'
-                                      }
-                                      alt="#"
-                                    />
+                                    <img src={publicUrl + 'assets/img/blog/author.jpg'} alt="#" />
                                   </Link>
                                 </div>
                                 <div className="agent-brief">
                                   <h6>
-                                    <Link to="/team-details">
-                                      William Seklo
-                                    </Link>
+                                    <Link to="/team-details">William Seklo</Link>
                                   </h6>
                                   <small>Estate Agents</small>
                                 </div>
@@ -1242,10 +1078,7 @@ class ShopGridV1 extends Component {
                                     </a>
                                   </li>
                                   <li className="go-top">
-                                    <Link
-                                      to="/product-details"
-                                      title="Product Details"
-                                    >
+                                    <Link to="/product-details" title="Product Details">
                                       <i className="flaticon-add" />
                                     </Link>
                                   </li>
@@ -1316,26 +1149,18 @@ class ShopGridV1 extends Component {
                       <div className="row">
                         <div className="col-12">
                           <div className="modal-product-img">
-                            <img
-                              src={publicUrl + 'assets/img/product/7.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/7.png'} alt="#" />
                           </div>
                           <div className="modal-product-info go-top">
                             <h5>
-                              <Link to="/product-details">
-                                Brake Conversion Kit
-                              </Link>
+                              <Link to="/product-details">Brake Conversion Kit</Link>
                             </h5>
                             <p className="added-cart">
-                              <i className="fa fa-check-circle" /> Successfully
-                              added to your Wishlist
+                              <i className="fa fa-check-circle" /> Successfully added to your
+                              Wishlist
                             </p>
                             <div className="btn-wrapper">
-                              <Link
-                                to="/wishlist"
-                                className="theme-btn-1 btn btn-effect-1"
-                              >
+                              <Link to="/wishlist" className="theme-btn-1 btn btn-effect-1">
                                 View Wishlist
                               </Link>
                             </div>
@@ -1343,14 +1168,11 @@ class ShopGridV1 extends Component {
                           {/* additional-info */}
                           <div className="additional-info d-none">
                             <p>
-                              We want to give you <b>10% discount</b> for your
-                              first order, <br /> Use discount code at checkout
+                              We want to give you <b>10% discount</b> for your first order, <br />{' '}
+                              Use discount code at checkout
                             </p>
                             <div className="payment-method">
-                              <img
-                                src={publicUrl + 'assets/img/icons/payment.png'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/icons/payment.png'} alt="#" />
                             </div>
                           </div>
                         </div>
@@ -1384,10 +1206,7 @@ class ShopGridV1 extends Component {
                       <div className="row">
                         <div className="col-lg-6 col-12">
                           <div className="modal-product-img">
-                            <img
-                              src={publicUrl + 'assets/img/product/4.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/4.png'} alt="#" />
                           </div>
                         </div>
                         <div className="col-lg-6 col-12">
@@ -1526,32 +1345,21 @@ class ShopGridV1 extends Component {
                       <div className="row">
                         <div className="col-12">
                           <div className="modal-product-img">
-                            <img
-                              src={publicUrl + 'assets/img/product/1.png'}
-                              alt="#"
-                            />
+                            <img src={publicUrl + 'assets/img/product/1.png'} alt="#" />
                           </div>
                           <div className="modal-product-info go-top">
                             <h5 className="go-top">
-                              <Link to="/product-details">
-                                Brake Conversion Kit
-                              </Link>
+                              <Link to="/product-details">Brake Conversion Kit</Link>
                             </h5>
                             <p className="added-cart">
                               <i className="fa fa-check-circle" />
                               Successfully added to your Cart
                             </p>
                             <div className="btn-wrapper">
-                              <Link
-                                to="/cart"
-                                className="theme-btn-1 btn btn-effect-1"
-                              >
+                              <Link to="/cart" className="theme-btn-1 btn btn-effect-1">
                                 View Cart
                               </Link>
-                              <Link
-                                to="/checkout"
-                                className="theme-btn-2 btn btn-effect-2"
-                              >
+                              <Link to="/checkout" className="theme-btn-2 btn btn-effect-2">
                                 Checkout
                               </Link>
                             </div>
@@ -1559,14 +1367,11 @@ class ShopGridV1 extends Component {
                           {/* additional-info */}
                           <div className="additional-info d-none">
                             <p>
-                              We want to give you <b>10% discount</b> for your
-                              first order, <br /> Use discount code at checkout
+                              We want to give you <b>10% discount</b> for your first order, <br />{' '}
+                              Use discount code at checkout
                             </p>
                             <div className="payment-method">
-                              <img
-                                src={publicUrl + 'assets/img/icons/payment.png'}
-                                alt="#"
-                              />
+                              <img src={publicUrl + 'assets/img/icons/payment.png'} alt="#" />
                             </div>
                           </div>
                         </div>

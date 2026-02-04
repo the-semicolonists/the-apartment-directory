@@ -18,11 +18,7 @@ class MyAccount extends Component {
                     <div className="col-lg-4">
                       <div className="ltn__tab-menu-list mb-50">
                         <div className="nav">
-                          <a
-                            className="active show"
-                            data-bs-toggle="tab"
-                            href="#ltn_tab_1_1"
-                          >
+                          <a className="active show" data-bs-toggle="tab" href="#ltn_tab_1_1">
                             Dashboard <i className="fas fa-home" />
                           </a>
                           <a data-bs-toggle="tab" href="#ltn_tab_1_2">
@@ -38,16 +34,13 @@ class MyAccount extends Component {
                             My Properties <i className="fa-solid fa-list" />
                           </a>
                           <a data-bs-toggle="tab" href="#ltn_tab_1_6">
-                            Favorited Properties{' '}
-                            <i className="fa-solid fa-heart" />
+                            Favorited Properties <i className="fa-solid fa-heart" />
                           </a>
                           <a data-bs-toggle="tab" href="#ltn_tab_1_7">
-                            Add Property{' '}
-                            <i className="fa-solid fa-map-location-dot" />
+                            Add Property <i className="fa-solid fa-map-location-dot" />
                           </a>
                           <a data-bs-toggle="tab" href="#ltn_tab_1_8">
-                            Payments{' '}
-                            <i className="fa-solid fa-money-check-dollar" />
+                            Payments <i className="fa-solid fa-money-check-dollar" />
                           </a>
                           <a data-bs-toggle="tab" href="#ltn_tab_1_9">
                             Change Password <i className="fa-solid fa-lock" />
@@ -60,14 +53,10 @@ class MyAccount extends Component {
                     </div>
                     <div className="col-lg-8">
                       <div className="tab-content">
-                        <div
-                          className="tab-pane fade active show"
-                          id="ltn_tab_1_1"
-                        >
+                        <div className="tab-pane fade active show" id="ltn_tab_1_1">
                           <div className="ltn__myaccount-tab-content-inner">
                             <p>
-                              Hello <strong>UserName</strong> (not{' '}
-                              <strong>UserName</strong>?{' '}
+                              Hello <strong>UserName</strong> (not <strong>UserName</strong>?{' '}
                               <small>
                                 <a href="login.html">Log out</a>
                               </small>{' '}
@@ -77,10 +66,7 @@ class MyAccount extends Component {
                               From your account dashboard you can view your{' '}
                               <span>recent orders</span>, manage your{' '}
                               <span>shipping and billing addresses</span>, and{' '}
-                              <span>
-                                edit your password and account details
-                              </span>
-                              .
+                              <span>edit your password and account details</span>.
                             </p>
                           </div>
                         </div>
@@ -91,9 +77,7 @@ class MyAccount extends Component {
                               <div className="ltn-author-introducing clearfix">
                                 <div className="author-img">
                                   <img
-                                    src={
-                                      publicUrl + 'assets/img/blog/author.jpg'
-                                    }
+                                    src={publicUrl + 'assets/img/blog/author.jpg'}
                                     alt="Author Image"
                                   />
                                 </div>
@@ -107,9 +91,7 @@ class MyAccount extends Component {
                                           <i className="icon-placeholder" />
                                         </div>
                                         <div className="footer-address-info">
-                                          <p>
-                                            Brooklyn, New York, United States
-                                          </p>
+                                          <p>Brooklyn, New York, United States</p>
                                         </div>
                                       </li>
                                       <li>
@@ -118,9 +100,7 @@ class MyAccount extends Component {
                                         </div>
                                         <div className="footer-address-info">
                                           <p>
-                                            <a href="tel:+0123-456789">
-                                              +0123-456789
-                                            </a>
+                                            <a href="tel:+0123-456789">+0123-456789</a>
                                           </p>
                                         </div>
                                       </li>
@@ -142,11 +122,7 @@ class MyAccount extends Component {
                               </div>
                               <div className="ltn__form-box contact-form-box box-shadow white-bg">
                                 <h4 className="title-2">Get A Quote</h4>
-                                <form
-                                  id="contact-form"
-                                  action="mail.php"
-                                  method="post"
-                                >
+                                <form id="contact-form" action="mail.php" method="post">
                                   <div className="row">
                                     <div className="col-md-6">
                                       <div className="input-item input-item-name ltn__custom-icon">
@@ -198,9 +174,8 @@ class MyAccount extends Component {
                                   </div>
                                   <p>
                                     <label className="input-info-save mb-0">
-                                      <input type="checkbox" name="agree" />{' '}
-                                      Save my name, email, and website in this
-                                      browser for the next time I comment.
+                                      <input type="checkbox" name="agree" /> Save my name, email,
+                                      and website in this browser for the next time I comment.
                                     </label>
                                   </p>
                                   <div className="btn-wrapper mt-0">
@@ -220,8 +195,7 @@ class MyAccount extends Component {
                         <div className="tab-pane fade" id="ltn_tab_1_3">
                           <div className="ltn__myaccount-tab-content-inner">
                             <p>
-                              The following addresses will be used on the
-                              checkout page by default.
+                              The following addresses will be used on the checkout page by default.
                             </p>
                             <div className="row">
                               <div className="col-md-6 col-12 learts-mb-30">
@@ -266,8 +240,7 @@ class MyAccount extends Component {
                         <div className="tab-pane fade" id="ltn_tab_1_4">
                           <div className="ltn__myaccount-tab-content-inner">
                             <p>
-                              The following addresses will be used on the
-                              checkout page by default.
+                              The following addresses will be used on the checkout page by default.
                             </p>
                             <div className="ltn__form-box">
                               <form action="#">
@@ -282,11 +255,7 @@ class MyAccount extends Component {
                                   </div>
                                   <div className="col-md-6">
                                     <label>Display Name:</label>
-                                    <input
-                                      type="text"
-                                      name="ltn__lastname"
-                                      placeholder="Ethan"
-                                    />
+                                    <input type="text" name="ltn__lastname" placeholder="Ethan" />
                                   </div>
                                   <div className="col-md-6">
                                     <label>Display Email:</label>
@@ -302,23 +271,13 @@ class MyAccount extends Component {
                                   <div className="row">
                                     <div className="col-md-12">
                                       <label>
-                                        Current password (leave blank to leave
-                                        unchanged):
+                                        Current password (leave blank to leave unchanged):
                                       </label>
                                       <input type="password" name="ltn__name" />
-                                      <label>
-                                        New password (leave blank to leave
-                                        unchanged):
-                                      </label>
-                                      <input
-                                        type="password"
-                                        name="ltn__lastname"
-                                      />
+                                      <label>New password (leave blank to leave unchanged):</label>
+                                      <input type="password" name="ltn__lastname" />
                                       <label>Confirm new password:</label>
-                                      <input
-                                        type="password"
-                                        name="ltn__lastname"
-                                      />
+                                      <input type="password" name="ltn__lastname" />
                                     </div>
                                   </div>
                                 </fieldset>
@@ -352,10 +311,7 @@ class MyAccount extends Component {
                                     <td className="ltn__my-properties-img go-top">
                                       <Link to="/product-details">
                                         <img
-                                          src={
-                                            publicUrl +
-                                            'assets/img/product-3/2.jpg'
-                                          }
+                                          src={publicUrl + 'assets/img/product-3/2.jpg'}
                                           alt="#"
                                         />
                                       </Link>
@@ -363,13 +319,11 @@ class MyAccount extends Component {
                                     <td>
                                       <div className="ltn__my-properties-info">
                                         <h6 className="mb-10 go-top">
-                                          <Link to="/product-details">
-                                            New Apartment Nice View
-                                          </Link>
+                                          <Link to="/product-details">New Apartment Nice View</Link>
                                         </h6>
                                         <small>
-                                          <i className="icon-placeholder" />{' '}
-                                          Brooklyn, New York, United States
+                                          <i className="icon-placeholder" /> Brooklyn, New York,
+                                          United States
                                         </small>
                                         <div className="product-ratting">
                                           <ul>
@@ -420,10 +374,7 @@ class MyAccount extends Component {
                                     <td className="ltn__my-properties-img go-top">
                                       <Link to="/product-details">
                                         <img
-                                          src={
-                                            publicUrl +
-                                            'assets/img/product-3/3.jpg'
-                                          }
+                                          src={publicUrl + 'assets/img/product-3/3.jpg'}
                                           alt="#"
                                         />
                                       </Link>
@@ -431,13 +382,11 @@ class MyAccount extends Component {
                                     <td>
                                       <div className="ltn__my-properties-info">
                                         <h6 className="mb-10 go-top">
-                                          <Link to="/product-details">
-                                            New Apartment Nice View
-                                          </Link>
+                                          <Link to="/product-details">New Apartment Nice View</Link>
                                         </h6>
                                         <small>
-                                          <i className="icon-placeholder" />{' '}
-                                          Brooklyn, New York, United States
+                                          <i className="icon-placeholder" /> Brooklyn, New York,
+                                          United States
                                         </small>
                                         <div className="product-ratting">
                                           <ul>
@@ -488,10 +437,7 @@ class MyAccount extends Component {
                                     <td className="ltn__my-properties-img go-top">
                                       <Link to="/product-details">
                                         <img
-                                          src={
-                                            publicUrl +
-                                            'assets/img/product-3/7.jpg'
-                                          }
+                                          src={publicUrl + 'assets/img/product-3/7.jpg'}
                                           alt="#"
                                         />
                                       </Link>
@@ -499,13 +445,11 @@ class MyAccount extends Component {
                                     <td>
                                       <div className="ltn__my-properties-info">
                                         <h6 className="mb-10 go-top">
-                                          <Link to="/product-details">
-                                            New Apartment Nice View
-                                          </Link>
+                                          <Link to="/product-details">New Apartment Nice View</Link>
                                         </h6>
                                         <small>
-                                          <i className="icon-placeholder" />{' '}
-                                          Brooklyn, New York, United States
+                                          <i className="icon-placeholder" /> Brooklyn, New York,
+                                          United States
                                         </small>
                                         <div className="product-ratting">
                                           <ul>
@@ -606,10 +550,7 @@ class MyAccount extends Component {
                                     <td className="ltn__my-properties-img go-top">
                                       <Link to="/product-details">
                                         <img
-                                          src={
-                                            publicUrl +
-                                            'assets/img/product-3/2.jpg'
-                                          }
+                                          src={publicUrl + 'assets/img/product-3/2.jpg'}
                                           alt="#"
                                         />
                                       </Link>
@@ -617,13 +558,11 @@ class MyAccount extends Component {
                                     <td>
                                       <div className="ltn__my-properties-info">
                                         <h6 className="mb-10 go-top">
-                                          <Link to="/product-details">
-                                            New Apartment Nice View
-                                          </Link>
+                                          <Link to="/product-details">New Apartment Nice View</Link>
                                         </h6>
                                         <small>
-                                          <i className="icon-placeholder" />{' '}
-                                          Brooklyn, New York, United States
+                                          <i className="icon-placeholder" /> Brooklyn, New York,
+                                          United States
                                         </small>
                                         <div className="product-ratting">
                                           <ul>
@@ -674,10 +613,7 @@ class MyAccount extends Component {
                                     <td className="ltn__my-properties-img go-top">
                                       <Link to="/product-details">
                                         <img
-                                          src={
-                                            publicUrl +
-                                            'assets/img/product-3/3.jpg'
-                                          }
+                                          src={publicUrl + 'assets/img/product-3/3.jpg'}
                                           alt="#"
                                         />
                                       </Link>
@@ -685,13 +621,11 @@ class MyAccount extends Component {
                                     <td>
                                       <div className="ltn__my-properties-info">
                                         <h6 className="mb-10 go-top">
-                                          <Link to="/product-details">
-                                            New Apartment Nice View
-                                          </Link>
+                                          <Link to="/product-details">New Apartment Nice View</Link>
                                         </h6>
                                         <small>
-                                          <i className="icon-placeholder" />{' '}
-                                          Brooklyn, New York, United States
+                                          <i className="icon-placeholder" /> Brooklyn, New York,
+                                          United States
                                         </small>
                                         <div className="product-ratting">
                                           <ul>
@@ -742,10 +676,7 @@ class MyAccount extends Component {
                                     <td className="ltn__my-properties-img go-top">
                                       <Link to="/product-details">
                                         <img
-                                          src={
-                                            publicUrl +
-                                            'assets/img/product-3/7.jpg'
-                                          }
+                                          src={publicUrl + 'assets/img/product-3/7.jpg'}
                                           alt="#"
                                         />
                                       </Link>
@@ -753,13 +684,11 @@ class MyAccount extends Component {
                                     <td>
                                       <div className="ltn__my-properties-info">
                                         <h6 className="mb-10 go-top">
-                                          <Link to="/product-details">
-                                            New Apartment Nice View
-                                          </Link>
+                                          <Link to="/product-details">New Apartment Nice View</Link>
                                         </h6>
                                         <small>
-                                          <i className="icon-placeholder" />{' '}
-                                          Brooklyn, New York, United States
+                                          <i className="icon-placeholder" /> Brooklyn, New York,
+                                          United States
                                         </small>
                                         <div className="product-ratting">
                                           <ul>
@@ -961,17 +890,13 @@ class MyAccount extends Component {
                             <br />
                             <p>
                               <small>
-                                * At least 1 image is required for a valid
-                                submission.Minimum size is 500/500px.
+                                * At least 1 image is required for a valid submission.Minimum size
+                                is 500/500px.
                               </small>
                               <br />
-                              <small>
-                                * PDF files upload supported as well.
-                              </small>
+                              <small>* PDF files upload supported as well.</small>
                               <br />
-                              <small>
-                                * Images might take longer to be processed.
-                              </small>
+                              <small>* Images might take longer to be processed.</small>
                             </p>
                             <h6>Video Option</h6>
                             <div className="row">
@@ -1006,20 +931,12 @@ class MyAccount extends Component {
                             <div className="row">
                               <div className="col-md-6">
                                 <div className="input-item input-item-textarea ltn__custom-icon">
-                                  <input
-                                    type="text"
-                                    name="ltn__name"
-                                    placeholder="*Address"
-                                  />
+                                  <input type="text" name="ltn__name" placeholder="*Address" />
                                 </div>
                               </div>
                               <div className="col-md-6">
                                 <div className="input-item input-item-textarea ltn__custom-icon">
-                                  <input
-                                    type="text"
-                                    name="ltn__name"
-                                    placeholder="Country"
-                                  />
+                                  <input type="text" name="ltn__name" placeholder="Country" />
                                 </div>
                               </div>
                               <div className="col-md-6">
@@ -1033,29 +950,17 @@ class MyAccount extends Component {
                               </div>
                               <div className="col-md-6">
                                 <div className="input-item input-item-textarea ltn__custom-icon">
-                                  <input
-                                    type="text"
-                                    name="ltn__name"
-                                    placeholder="City"
-                                  />
+                                  <input type="text" name="ltn__name" placeholder="City" />
                                 </div>
                               </div>
                               <div className="col-md-6">
                                 <div className="input-item input-item-textarea ltn__custom-icon">
-                                  <input
-                                    type="text"
-                                    name="ltn__name"
-                                    placeholder="Neighborhood"
-                                  />
+                                  <input type="text" name="ltn__name" placeholder="Neighborhood" />
                                 </div>
                               </div>
                               <div className="col-md-6">
                                 <div className="input-item input-item-textarea ltn__custom-icon">
-                                  <input
-                                    type="text"
-                                    name="ltn__name"
-                                    placeholder="Zip"
-                                  />
+                                  <input type="text" name="ltn__name" placeholder="Zip" />
                                 </div>
                               </div>
                               <div className="col-lg-12">
@@ -1273,9 +1178,7 @@ class MyAccount extends Component {
                               <div className="col-md-6">
                                 <div className="input-item">
                                   <select className="nice-select">
-                                    <option>
-                                      Select Energy Class (EU regulation)
-                                    </option>
+                                    <option>Select Energy Class (EU regulation)</option>
                                     <option>A+</option>
                                     <option>A</option>
                                     <option>B</option>
@@ -1462,13 +1365,9 @@ class MyAccount extends Component {
                                 </label>
                               </div>
                             </div>
-                            <div
-                              className="alert alert-warning d-none"
-                              role="alert"
-                            >
-                              Please note that the date and time you requested
-                              may not be available. We will contact you to
-                              confirm your actual appointment details.
+                            <div className="alert alert-warning d-none" role="alert">
+                              Please note that the date and time you requested may not be available.
+                              We will contact you to confirm your actual appointment details.
                             </div>
                             <div className="btn-wrapper text-center--- mt-30">
                               <button
@@ -1527,16 +1426,10 @@ class MyAccount extends Component {
                                             Login
                                           </button>
                                           <label className="input-info-save mb-0">
-                                            <input
-                                              type="checkbox"
-                                              name="agree"
-                                            />{' '}
-                                            Remember me
+                                            <input type="checkbox" name="agree" /> Remember me
                                           </label>
                                           <p className="mt-30">
-                                            <a href="register.html">
-                                              Lost your password?
-                                            </a>
+                                            <a href="register.html">Lost your password?</a>
                                           </p>
                                         </form>
                                       </div>
@@ -1558,10 +1451,7 @@ class MyAccount extends Component {
                                       className="collapse ltn__checkout-single-content-info"
                                     >
                                       <div className="ltn__coupon-code-form">
-                                        <p>
-                                          If you have a coupon code, please
-                                          apply it below.
-                                        </p>
+                                        <p>If you have a coupon code, please apply it below.</p>
                                         <form action="#">
                                           <input
                                             type="text"
@@ -1647,12 +1537,8 @@ class MyAccount extends Component {
                                                 <option>China</option>
                                                 <option>Morocco</option>
                                                 <option>Saudi Arabia</option>
-                                                <option>
-                                                  United Kingdom (UK)
-                                                </option>
-                                                <option>
-                                                  United States (US)
-                                                </option>
+                                                <option>United Kingdom (UK)</option>
+                                                <option>United States (US)</option>
                                               </select>
                                             </div>
                                           </div>
@@ -1680,38 +1566,26 @@ class MyAccount extends Component {
                                           <div className="col-lg-4 col-md-6">
                                             <h6>Town / City</h6>
                                             <div className="input-item">
-                                              <input
-                                                type="text"
-                                                placeholder="City"
-                                              />
+                                              <input type="text" placeholder="City" />
                                             </div>
                                           </div>
                                           <div className="col-lg-4 col-md-6">
                                             <h6>State </h6>
                                             <div className="input-item">
-                                              <input
-                                                type="text"
-                                                placeholder="State"
-                                              />
+                                              <input type="text" placeholder="State" />
                                             </div>
                                           </div>
                                           <div className="col-lg-4 col-md-6">
                                             <h6>Zip</h6>
                                             <div className="input-item">
-                                              <input
-                                                type="text"
-                                                placeholder="Zip"
-                                              />
+                                              <input type="text" placeholder="Zip" />
                                             </div>
                                           </div>
                                         </div>
                                         <p>
                                           <label className="input-info-save mb-0">
-                                            <input
-                                              type="checkbox"
-                                              name="agree"
-                                            />{' '}
-                                            Create an account?
+                                            <input type="checkbox" name="agree" /> Create an
+                                            account?
                                           </label>
                                         </p>
                                         <h6>Order Notes (optional)</h6>
@@ -1748,9 +1622,8 @@ class MyAccount extends Component {
                                       >
                                         <div className="card-body">
                                           <p>
-                                            Please send a check to Store Name,
-                                            Store Street, Store Town, Store
-                                            State / County, Store Postcode.
+                                            Please send a check to Store Name, Store Street, Store
+                                            Town, Store State / County, Store Postcode.
                                           </p>
                                         </div>
                                       </div>
@@ -1785,10 +1658,7 @@ class MyAccount extends Component {
                                       >
                                         PayPal{' '}
                                         <img
-                                          src={
-                                            publicUrl +
-                                            'assets/img/icons/payment-3.png'
-                                          }
+                                          src={publicUrl + 'assets/img/icons/payment-3.png'}
                                           alt="#"
                                         />
                                       </h5>
@@ -1799,9 +1669,8 @@ class MyAccount extends Component {
                                       >
                                         <div className="card-body">
                                           <p>
-                                            Pay via PayPal; you can pay with
-                                            your credit card if you don’t have a
-                                            PayPal account.
+                                            Pay via PayPal; you can pay with your credit card if you
+                                            don’t have a PayPal account.
                                           </p>
                                         </div>
                                       </div>
@@ -1809,9 +1678,8 @@ class MyAccount extends Component {
                                   </div>
                                   <div className="ltn__payment-note mt-30 mb-30">
                                     <p>
-                                      Your personal data will be used to process
-                                      your order, support your experience
-                                      throughout this website, and for other
+                                      Your personal data will be used to process your order, support
+                                      your experience throughout this website, and for other
                                       purposes described in our privacy policy.
                                     </p>
                                   </div>
@@ -1842,8 +1710,7 @@ class MyAccount extends Component {
                                       </tr>
                                       <tr>
                                         <td>
-                                          Wheel Bearing Retainer{' '}
-                                          <strong>× 2</strong>
+                                          Wheel Bearing Retainer <strong>× 2</strong>
                                         </td>
                                         <td>$150.00</td>
                                       </tr>
@@ -1873,10 +1740,7 @@ class MyAccount extends Component {
                         <div className="tab-pane fade" id="ltn_tab_1_9">
                           <div className="ltn__myaccount-tab-content-inner">
                             <div className="account-login-inner">
-                              <form
-                                action="#"
-                                className="ltn__form-box contact-form-box"
-                              >
+                              <form action="#" className="ltn__form-box contact-form-box">
                                 <h5 className="mb-30">Change Password</h5>
                                 <input
                                   type="password"
@@ -1894,10 +1758,7 @@ class MyAccount extends Component {
                                   placeholder="Confirm New Password*"
                                 />
                                 <div className="btn-wrapper mt-0">
-                                  <button
-                                    className="theme-btn-1 btn btn-block"
-                                    type="submit"
-                                  >
+                                  <button className="theme-btn-1 btn btn-block" type="submit">
                                     Save Changes
                                   </button>
                                 </div>

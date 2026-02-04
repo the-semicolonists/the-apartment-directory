@@ -15,10 +15,7 @@ const Home = () => {
           content="Discover The Apartment Directory — the most complete and accurate source for apartment owner data, including direct contacts and verified phone numbers."
         />
 
-        <meta
-          property="og:title"
-          content="Your Reliable Partner in Finding the Right Apartment"
-        />
+        <meta property="og:title" content="Your Reliable Partner in Finding the Right Apartment" />
         <meta
           property="og:description"
           content="We specialize in apartment owner data with unmatched accuracy and verified phone numbers. Over 35 years of experience in the field."
@@ -32,10 +29,7 @@ const Home = () => {
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Your Reliable Partner in Finding the Right Apartment"
-        />
+        <meta name="twitter:title" content="Your Reliable Partner in Finding the Right Apartment" />
         <meta
           name="twitter:description"
           content="The Apartment Directory provides the most accurate owner data in the industry, backed by decades of human research and direct contacts."

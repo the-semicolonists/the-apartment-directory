@@ -8,10 +8,7 @@ const DirectorySubscriptionPage = () => {
   return (
     <div>
       <Navbar />
-      <PageHeader
-        headertitle="Subscription Rates"
-        subheader="Directory Subscription"
-      />
+      <PageHeader headertitle="Subscription Rates" subheader="Directory Subscription" />
       <DirectorySubscriptionSlider />
       <CallToAction />
       <Footer />

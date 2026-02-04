@@ -43,9 +43,7 @@ class ContactForm extends Component {
           if (data.responseText !== '') {
             $(formMessages).text(data.responseText);
           } else {
-            $(formMessages).text(
-              'Oops! An error occured and your message could not be sent.'
-            );
+            $(formMessages).text('Oops! An error occured and your message could not be sent.');
           }
         });
     });
@@ -61,61 +59,34 @@ class ContactForm extends Component {
             <div className="col-lg-12">
               <div className="ltn__form-box contact-form-box box-shadow white-bg">
                 <h4 className="title-2">Let's Connect</h4>
-                <form
-                  id="contact-form"
-                  action={publicUrl + 'mail.php'}
-                  method="post"
-                >
+                <form id="contact-form" action={publicUrl + 'mail.php'} method="post">
                   <div className="row">
                     <div className="col-md-6">
                       <div className="input-item input-item-name ltn__custom-icon">
-                        <input
-                          type="text"
-                          name="name"
-                          placeholder="Enter your name"
-                        />
+                        <input type="text" name="name" placeholder="Enter your name" />
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="input-item input-item-email ltn__custom-icon">
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="Enter email address"
-                        />
+                        <input type="email" name="email" placeholder="Enter email address" />
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="input-item input-item-phone ltn__custom-icon">
-                        <input
-                          type="text"
-                          name="phone"
-                          placeholder="Enter phone number"
-                        />
+                        <input type="text" name="phone" placeholder="Enter phone number" />
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="input-item flaticon-location ltn__custom-icon">
-                        <input
-                          type="text"
-                          name="address"
-                          placeholder="Enter address"
-                        />
+                        <input type="text" name="address" placeholder="Enter address" />
                       </div>
                     </div>
                   </div>
                   <div className="input-item input-item-textarea ltn__custom-icon">
-                    <textarea
-                      name="message"
-                      placeholder="Enter message"
-                      defaultValue={''}
-                    />
+                    <textarea name="message" placeholder="Enter message" defaultValue={''} />
                   </div>
                   <div className="btn-wrapper mt-0">
-                    <button
-                      className="btn theme-btn-1 btn-effect-1 text-uppercase"
-                      type="submit"
-                    >
+                    <button className="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">
                       Book a Demo
                     </button>
                   </div>

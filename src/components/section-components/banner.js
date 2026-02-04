@@ -2,7 +2,7 @@ import { Component } from 'react';
 // import topViewVillaImage from '../../../public/assets/img/top-view-villa.jpg'
 class Banner extends Component {
   render() {
-    let publicUrl = process.env.PUBLIC_URL + '/';
+    // let publicUrl = process.env.PUBLIC_URL + '/';
     console.log(process.env.PUBLIC_URL);
     return (
       <div className="ltn__slider-area ltn__slider-3  section-bg-1 go-top">
@@ -21,21 +21,12 @@ class Banner extends Component {
                           </span>
                         </h6>
                         <h1 className="slide-title">
-                          <span className="d-block text-dark">
-                            Verified owner data.
-                          </span>
-                          <span className="d-block text-dark">
-                            Better outreach.
-                          </span>
-                          <span className="d-block text-dark">
-                            More closings.
-                          </span>
+                          <span className="d-block text-dark">Verified owner data.</span>
+                          <span className="d-block text-dark">Better outreach.</span>
+                          <span className="d-block text-dark">More closings.</span>
                         </h1>
                         <div className="slide-brief animated">
-                          <p>
-                            Built for agents, brokers, and deal teams focused on
-                            multifamily.
-                          </p>
+                          <p>Built for agents, brokers, and deal teams focused on multifamily.</p>
                         </div>
                         {/* <div className="btn-wrapper animated ">
 												<Link to="/contact" className="theme-btn-1 btn btn-effect-1 go-top">Make An Enquiry</Link>
@@ -73,9 +64,8 @@ class Banner extends Component {
                         </h1>
                         <div className="slide-brief animated">
                           <p>
-                            Our listings are curated with care, combining
-                            frequent updates and expert verification to ensure
-                            only the best make it through.
+                            Our listings are curated with care, combining frequent updates and
+                            expert verification to ensure only the best make it through.
                           </p>
                         </div>
                         {/* <div className="btn-wrapper animated">

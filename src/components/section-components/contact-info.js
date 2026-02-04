@@ -10,10 +10,7 @@ class ContactInfo extends Component {
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-2 box-shadow">
                 <div className="ltn__contact-address-icon">
-                  <img
-                    src={publicUrl + 'assets/img/icons/10.png'}
-                    alt="email"
-                  />
+                  <img src={publicUrl + 'assets/img/icons/10.png'} alt="email" />
                 </div>
                 <h3>Email Address</h3>
                 <p>
@@ -38,10 +35,7 @@ class ContactInfo extends Component {
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-2 box-shadow">
                 <div className="ltn__contact-address-icon">
-                  <img
-                    src={publicUrl + 'assets/img/icons/12.png'}
-                    alt="address"
-                  />
+                  <img src={publicUrl + 'assets/img/icons/12.png'} alt="address" />
                 </div>
                 <h3>Office Address</h3>
                 <p>

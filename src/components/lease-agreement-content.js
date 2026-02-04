@@ -15,30 +15,26 @@ class LeaseAgreementContent extends Component {
                     Lease Arrangement Ensures Current of Information
                   </h1>
                   <p>
-                    Because it is essential that the information in your hands
-                    be as current as possible, we have devised a lease
-                    arrangement that permits you to have each new volume of the
-                    Directory, with supplements, on an annual lease basis. You
-                    turn in your old volume, and we replace it with a completely
-                    new and revised volume. Your lease is your guarantee that
-                    you will always have up-to-date apartment information at
-                    your fingertips.
+                    Because it is essential that the information in your hands be as current as
+                    possible, we have devised a lease arrangement that permits you to have each new
+                    volume of the Directory, with supplements, on an annual lease basis. You turn in
+                    your old volume, and we replace it with a completely new and revised volume.
+                    Your lease is your guarantee that you will always have up-to-date apartment
+                    information at your fingertips.
                   </p>
                   <p>
-                    Start profiting from the kind of specific, detailed
-                    information you need to operate efficiently. Take advantage
-                    of the comprehensive research the publishers of The
-                    Apartment Directory have done for you.
+                    Start profiting from the kind of specific, detailed information you need to
+                    operate efficiently. Take advantage of the comprehensive research the publishers
+                    of The Apartment Directory have done for you.
                   </p>
                   <p>
-                    To order a current Directory for your area, simply email us
-                    at{' '}
+                    To order a current Directory for your area, simply email us at{' '}
                     <a href="mailto:directory@theapartmentdirectories.com">
                       {' '}
                       directory@theapartmentdirectories.com
                     </a>
-                    . After subscription, the new Directory and supplements to
-                    date (if any) will be delivered to you immediately.
+                    . After subscription, the new Directory and supplements to date (if any) will be
+                    delivered to you immediately.
                   </p>
                 </div>
               </div>
