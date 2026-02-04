@@ -6,7 +6,7 @@ class ContactInfo extends Component {
     return (
       <div className="ltn__contact-address-area mb-90">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-2 box-shadow">
                 <div className="ltn__contact-address-icon">
@@ -21,7 +21,7 @@ class ContactInfo extends Component {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-2 box-shadow">
                 <div className="ltn__contact-address-icon">
                   <img
@@ -34,7 +34,7 @@ class ContactInfo extends Component {
                   P: (310) 832-0354 <br /> F: (310) 832-9320
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-2 box-shadow">
                 <div className="ltn__contact-address-icon">

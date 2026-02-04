@@ -68,7 +68,7 @@ class Footer extends Component {
                           </p>
                         </div>
                       </li>
-                      <li>
+                      {/* <li>
                         <div className="footer-address-icon">
                           <i className="icon-call" />
                         </div>
@@ -77,7 +77,7 @@ class Footer extends Component {
                             <a href="tel:+13108320354">(310) 832-0354</a>
                           </p>
                         </div>
-                      </li>
+                      </li> */}
                       <li>
                         <div className="footer-address-icon">
                           <i className="icon-mail" />

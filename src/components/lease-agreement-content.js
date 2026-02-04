@@ -31,12 +31,8 @@ class LeaseAgreementContent extends Component {
                     Apartment Directory have done for you.
                   </p>
                   <p>
-                    To order a current Directory for your area, simply call us
+                    To order a current Directory for your area, simply email us
                     at{' '}
-                    <strong>
-                      <a href="tel:+13108320354"> (310) 832-0354 </a>
-                    </strong>
-                    or email us at{' '}
                     <a href="mailto:directory@theapartmentdirectories.com">
                       {' '}
                       directory@theapartmentdirectories.com
