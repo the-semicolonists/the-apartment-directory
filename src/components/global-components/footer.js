@@ -64,16 +64,16 @@ class Footer extends Component {
                           <p>12121 Wilshire Blvd, Suite 1201 Los Angeles, CA 90025 United States</p>
                         </div>
                       </li>
-                      {/* <li>
+                      <li>
                         <div className="footer-address-icon">
                           <i className="icon-call" />
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <a href="tel:+13108320354">(310) 832-0354</a>
+                            <a href="tel:+13107082998">+1 (310) 708-2998</a>
                           </p>
                         </div>
-                      </li> */}
+                      </li>
                       <li>
                         <div className="footer-address-icon">
                           <i className="icon-mail" />

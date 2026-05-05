@@ -18,20 +18,15 @@ class ContactInfo extends Component {
                 </p>
               </div>
             </div>
-            {/* <div className="col-lg-4">
+            <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-2 box-shadow">
                 <div className="ltn__contact-address-icon">
-                  <img
-                    src={publicUrl + 'assets/img/icons/11.png'}
-                    alt="phone and fax"
-                  />
+                  <img src={publicUrl + 'assets/img/icons/11.png'} alt="phone" />
                 </div>
                 <h3>Phone Number</h3>
-                <p>
-                  P: (310) 832-0354 <br /> F: (310) 832-9320
-                </p>
+                <p>+1 (310) 708-2998</p>
               </div>
-            </div> */}
+            </div>
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-2 box-shadow">
                 <div className="ltn__contact-address-icon">

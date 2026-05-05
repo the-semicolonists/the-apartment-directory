@@ -117,6 +117,13 @@ class ServiceSection extends Component {
               </div>
             </div>
           </div>
+          <div className="row">
+            <div className="col-lg-12 text-center mt-40">
+              <a href="tel:+13107082998" className="btn btn-effect-1 theme-btn-1">
+                <i className="icon-call me-2" /> +1 (310) 708-2998
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     );
